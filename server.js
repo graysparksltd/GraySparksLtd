@@ -1,53 +1,46 @@
 import Anthropic from "@anthropic-ai/sdk";
 import express from "express";
+import multer from "multer";
 import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const client = new Anthropic();
+const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 10 * 1024 * 1024 } });
 
-app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
-const SYSTEM_PROMPT = `You are a skilled sales assistant for GraySparks Ltd, a professional fencing and garden structures company based in London.
+const SYSTEM_PROMPT = `You are writing offer messages on behalf of GraySparks Ltd, a professional fencing and garden structures company based in London.
 
-Your job is to write a tailored, friendly and professional offer message in response to a customer lead from a contractor marketplace (like Rated People, MyBuilder, or Checkatrade).
+A customer lead screenshot will be shown to you. Extract all relevant details and write a short, warm, professional offer message ready to send on the platform.
 
-Guidelines:
-- Address the customer by first name
-- Reference their specific job requirements and dimensions if provided
-- Mention that we cover their area
-- Express genuine interest in the project
-- Offer to visit for a free no-obligation quote/survey
-- Mention we can do both Supply & Install or Install Only (if the customer mentioned it as an option)
-- Keep the tone warm, confident, and professional — not pushy
-- Keep it concise: 4-6 sentences max
-- Do NOT include a price estimate unless a budget was explicitly mentioned and only to acknowledge it
-- End with a clear call to action (e.g. "Happy to pop over for a free measure and quote")
-- Do NOT use greetings like "Dear" — start naturally e.g. "Hi [Name],"
-- Sign off as "GraySparks Ltd" on a new line at the end
-- Do not use emojis
-- Do not repeat the customer's full address back to them verbatim`;
+Rules:
+- Address the customer by first name only
+- Reference their specific job, dimensions, and location naturally
+- Mention we cover their area and are happy to help
+- Offer a free no-obligation visit/quote
+- If they mentioned Supply & Install or Install Only, acknowledge we can do either
+- Keep it to 4–6 sentences — concise and confident, not pushy
+- Do NOT include a price
+- Sign off: GraySparks Ltd
+- No emojis, no "Dear", start with "Hi [Name],"
+- Output ONLY the message — no preamble, no explanation`;
 
-app.post("/api/generate", async (req, res) => {
-  const { customerName, location, budget, timeline, description, dimensions, jobType } = req.body;
-
-  if (!description) {
-    return res.status(400).json({ error: "Job description is required" });
+app.post("/api/generate", upload.array("screenshots", 5), async (req, res) => {
+  const files = req.files;
+  if (!files || files.length === 0) {
+    return res.status(400).json({ error: "Please upload at least one screenshot." });
   }
 
-  const leadSummary = [
-    customerName && `Customer name: ${customerName}`,
-    location && `Location: ${location}`,
-    budget && `Customer budget: £${budget}`,
-    timeline && `Timeline: ${timeline}`,
-    dimensions && `Dimensions/measurements: ${dimensions}`,
-    jobType && `Job type preference: ${jobType}`,
-    `Job description: ${description}`,
-  ]
-    .filter(Boolean)
-    .join("\n");
+  const imageContent = files.map((file) => ({
+    type: "image",
+    source: {
+      type: "base64",
+      media_type: file.mimetype,
+      data: file.buffer.toString("base64"),
+    },
+  }));
 
   try {
     const message = await client.messages.create({
@@ -57,12 +50,18 @@ app.post("/api/generate", async (req, res) => {
       messages: [
         {
           role: "user",
-          content: `Please write a tailored offer message for this lead:\n\n${leadSummary}`,
+          content: [
+            ...imageContent,
+            {
+              type: "text",
+              text: "Write the offer message for this lead.",
+            },
+          ],
         },
       ],
     });
 
-    const text = message.content[0].type === "text" ? message.content[0].text : "";
+    const text = message.content[0].type === "text" ? message.content[0].text.trim() : "";
     res.json({ message: text });
   } catch (err) {
     console.error(err);

@@ -2,320 +2,325 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>GraySparks — Offer Generator</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f4f6f9;
+      background: #f0f2f7;
       color: #1a1a2e;
       min-height: 100vh;
-      padding: 2rem 1rem;
-    }
-
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 3rem;
     }
 
     header {
       display: flex;
       align-items: center;
       gap: 0.75rem;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      align-self: flex-start;
+      max-width: 600px;
+      width: 100%;
+      margin-inline: auto;
     }
 
     .logo {
-      width: 40px;
-      height: 40px;
+      width: 38px; height: 38px;
       background: #1a1a2e;
       border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-weight: 700;
-      font-size: 1.1rem;
-      letter-spacing: -0.5px;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 800; font-size: 1rem;
       flex-shrink: 0;
     }
 
-    header h1 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #1a1a2e;
-    }
+    header h1 { font-size: 1.1rem; font-weight: 700; }
+    header p { font-size: 0.75rem; color: #888; margin-top: 1px; }
 
-    header p {
-      font-size: 0.8rem;
-      color: #666;
-      margin-top: 1px;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 1.75rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-      margin-bottom: 1.25rem;
-    }
-
-    .card h2 {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #888;
-      margin-bottom: 1.25rem;
-    }
-
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-    }
-
-    @media (max-width: 540px) {
-      .grid-2 { grid-template-columns: 1fr; }
-    }
-
-    .field {
+    .main {
+      width: 100%;
+      max-width: 600px;
       display: flex;
       flex-direction: column;
-      gap: 0.35rem;
+      gap: 1.25rem;
     }
 
-    label {
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: #444;
-    }
-
-    input, select, textarea {
-      border: 1.5px solid #e0e4ed;
-      border-radius: 7px;
-      padding: 0.55rem 0.75rem;
-      font-size: 0.9rem;
-      font-family: inherit;
-      color: #1a1a2e;
+    /* Drop zone */
+    .drop-zone {
       background: #fff;
-      transition: border-color 0.15s;
-      outline: none;
-      width: 100%;
+      border: 2px dashed #cdd2e0;
+      border-radius: 14px;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      position: relative;
     }
 
-    input:focus, select:focus, textarea:focus {
+    .drop-zone.dragover {
       border-color: #1a1a2e;
+      background: #f5f6ff;
     }
 
-    textarea {
-      resize: vertical;
-      min-height: 100px;
+    .drop-zone input[type="file"] {
+      position: absolute; inset: 0;
+      opacity: 0; cursor: pointer; width: 100%; height: 100%;
     }
 
+    .drop-icon {
+      width: 48px; height: 48px;
+      background: #f0f2f7;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1rem;
+    }
+
+    .drop-zone h2 {
+      font-size: 1rem; font-weight: 600; margin-bottom: 0.35rem;
+    }
+
+    .drop-zone p {
+      font-size: 0.8rem; color: #888;
+    }
+
+    /* Previews */
+    .previews {
+      display: none;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .previews.has-files { display: flex; }
+
+    .preview-item {
+      position: relative;
+      width: 72px; height: 72px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1.5px solid #e0e4ed;
+    }
+
+    .preview-item img {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+
+    .preview-item .remove {
+      position: absolute; top: 2px; right: 2px;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 18px; height: 18px;
+      font-size: 10px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      line-height: 1;
+    }
+
+    /* Generate button */
     .btn-generate {
       width: 100%;
-      padding: 0.75rem;
+      padding: 0.9rem;
       background: #1a1a2e;
       color: #fff;
       border: none;
-      border-radius: 8px;
-      font-size: 0.95rem;
+      border-radius: 10px;
+      font-size: 1rem;
       font-weight: 600;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
       transition: background 0.15s, opacity 0.15s;
-      margin-top: 0.5rem;
     }
 
     .btn-generate:hover { background: #2d2d4e; }
-    .btn-generate:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-generate:disabled { opacity: 0.45; cursor: not-allowed; }
 
+    .spinner {
+      width: 18px; height: 18px;
+      border: 2px solid rgba(255,255,255,0.35);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      display: none;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Output */
     .output-card {
       display: none;
       background: #fff;
-      border-radius: 12px;
-      padding: 1.75rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-      margin-bottom: 1.25rem;
+      border-radius: 14px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
     }
 
     .output-card.visible { display: block; }
 
-    .output-header {
+    .output-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 1rem;
+      margin-bottom: 0.85rem;
     }
 
-    .output-header h2 {
-      font-size: 0.75rem;
-      font-weight: 600;
+    .output-label {
+      font-size: 0.7rem;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: #888;
     }
 
     .btn-copy {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.4rem 0.85rem;
-      background: #f0f2f7;
-      color: #1a1a2e;
+      display: flex; align-items: center; gap: 0.4rem;
+      padding: 0.45rem 1rem;
+      background: #1a1a2e;
+      color: #fff;
       border: none;
-      border-radius: 6px;
-      font-size: 0.8rem;
+      border-radius: 7px;
+      font-size: 0.82rem;
       font-weight: 600;
       cursor: pointer;
       transition: background 0.15s;
     }
 
-    .btn-copy:hover { background: #e2e6ef; }
-    .btn-copy.copied { background: #d4edda; color: #1a6b35; }
+    .btn-copy:hover { background: #2d2d4e; }
+    .btn-copy.copied { background: #1a6b35; }
 
     #output-text {
-      white-space: pre-wrap;
-      font-size: 0.92rem;
-      line-height: 1.7;
+      font-size: 0.93rem;
+      line-height: 1.75;
       color: #1a1a2e;
-      background: #f9fafc;
-      border-radius: 7px;
-      padding: 1rem;
-      border: 1.5px solid #e0e4ed;
+      white-space: pre-wrap;
     }
-
-    .spinner {
-      display: none;
-      width: 18px;
-      height: 18px;
-      border: 2px solid #ffffff55;
-      border-top-color: #fff;
-      border-radius: 50%;
-      animation: spin 0.6s linear infinite;
-      margin: 0 auto;
-    }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
 
     .error-msg {
-      color: #c0392b;
+      background: #fff0f0;
+      border: 1.5px solid #f5c6cb;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
       font-size: 0.85rem;
-      margin-top: 0.5rem;
+      color: #c0392b;
       display: none;
     }
 
-    .tip {
-      font-size: 0.75rem;
-      color: #999;
-      margin-top: 0.35rem;
+    /* Mobile tap-to-upload feel */
+    @media (max-width: 480px) {
+      .drop-zone { padding: 2rem 1rem; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="logo">GS</div>
-      <div>
-        <h1>GraySparks Ltd</h1>
-        <p>Lead Offer Generator</p>
+
+  <header>
+    <div class="logo">GS</div>
+    <div>
+      <h1>GraySparks Ltd</h1>
+      <p>Offer Generator</p>
+    </div>
+  </header>
+
+  <div class="main">
+
+    <div class="drop-zone" id="dropZone">
+      <input type="file" id="fileInput" accept="image/*" multiple />
+      <div class="drop-icon">
+        <svg width="22" height="22" fill="none" stroke="#888" stroke-width="2" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <circle cx="8.5" cy="8.5" r="1.5"/>
+          <path d="M21 15l-5-5L5 21"/>
+        </svg>
       </div>
-    </header>
-
-    <div class="card">
-      <h2>Lead Details</h2>
-      <div style="display:flex;flex-direction:column;gap:1rem;">
-
-        <div class="grid-2">
-          <div class="field">
-            <label for="customerName">Customer Name</label>
-            <input type="text" id="customerName" placeholder="e.g. Rashid H." />
-          </div>
-          <div class="field">
-            <label for="location">Location</label>
-            <input type="text" id="location" placeholder="e.g. Mortlake, SW14, London" />
-          </div>
-        </div>
-
-        <div class="grid-2">
-          <div class="field">
-            <label for="budget">Budget (£)</label>
-            <input type="text" id="budget" placeholder="e.g. 3500" />
-          </div>
-          <div class="field">
-            <label for="timeline">Timeline</label>
-            <select id="timeline">
-              <option value="">— Select —</option>
-              <option value="Flexible">Flexible</option>
-              <option value="ASAP">ASAP</option>
-              <option value="Within 1 month">Within 1 month</option>
-              <option value="1–3 months">1–3 months</option>
-              <option value="3+ months">3+ months</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="field">
-          <label for="dimensions">Dimensions / Measurements</label>
-          <input type="text" id="dimensions" placeholder="e.g. Sides x2 = 5M, Front = 6.5M, Gate opening = 1M" />
-          <span class="tip">Paste any sizes the customer mentioned</span>
-        </div>
-
-        <div class="field">
-          <label for="jobType">Job Type</label>
-          <select id="jobType">
-            <option value="">— Not specified —</option>
-            <option value="Supply & Install">Supply &amp; Install</option>
-            <option value="Install Only">Install Only</option>
-            <option value="Supply & Install or Install Only">Either (Supply &amp; Install or Install Only)</option>
-          </select>
-        </div>
-
-        <div class="field">
-          <label for="description">Job Description <span style="color:#c0392b">*</span></label>
-          <textarea id="description" placeholder="Paste the customer's description here…"></textarea>
-        </div>
-
-        <button class="btn-generate" id="generateBtn" onclick="generate()">
-          <span id="btnText">Generate Offer Message</span>
-          <div class="spinner" id="spinner"></div>
-        </button>
-        <div class="error-msg" id="errorMsg"></div>
-
-      </div>
+      <h2>Drop lead screenshots here</h2>
+      <p>or tap to choose from your camera roll</p>
     </div>
 
+    <div class="previews" id="previews"></div>
+
+    <button class="btn-generate" id="generateBtn" onclick="generate()" disabled>
+      <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+      </svg>
+      <span id="btnText">Generate Offer Message</span>
+      <div class="spinner" id="spinner"></div>
+    </button>
+
+    <div class="error-msg" id="errorMsg"></div>
+
     <div class="output-card" id="outputCard">
-      <div class="output-header">
-        <h2>Generated Message</h2>
+      <div class="output-top">
+        <span class="output-label">Your Message</span>
         <button class="btn-copy" id="copyBtn" onclick="copyMessage()">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <rect x="9" y="9" width="13" height="13" rx="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
           </svg>
-          Copy
+          Copy &amp; Send
         </button>
       </div>
       <div id="output-text"></div>
     </div>
+
   </div>
 
   <script>
+    let files = [];
+
+    const fileInput = document.getElementById('fileInput');
+    const dropZone = document.getElementById('dropZone');
+    const previewsEl = document.getElementById('previews');
+    const generateBtn = document.getElementById('generateBtn');
+
+    fileInput.addEventListener('change', () => addFiles(Array.from(fileInput.files)));
+
+    dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('dragover'); });
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      addFiles(Array.from(e.dataTransfer.files).filter(f => f.type.startsWith('image/')));
+    });
+
+    function addFiles(newFiles) {
+      newFiles.forEach(f => {
+        if (!files.find(x => x.name === f.name && x.size === f.size)) files.push(f);
+      });
+      renderPreviews();
+      fileInput.value = '';
+    }
+
+    function renderPreviews() {
+      previewsEl.innerHTML = '';
+      files.forEach((f, i) => {
+        const url = URL.createObjectURL(f);
+        const div = document.createElement('div');
+        div.className = 'preview-item';
+        div.innerHTML = `<img src="${url}" /><button class="remove" onclick="removeFile(${i})">✕</button>`;
+        previewsEl.appendChild(div);
+      });
+      previewsEl.className = files.length ? 'previews has-files' : 'previews';
+      generateBtn.disabled = files.length === 0;
+    }
+
+    function removeFile(i) {
+      files.splice(i, 1);
+      renderPreviews();
+    }
+
     async function generate() {
-      const btn = document.getElementById('generateBtn');
+      const btn = generateBtn;
       const btnText = document.getElementById('btnText');
       const spinner = document.getElementById('spinner');
       const errorMsg = document.getElementById('errorMsg');
       const outputCard = document.getElementById('outputCard');
-
-      const description = document.getElementById('description').value.trim();
-      if (!description) {
-        errorMsg.textContent = 'Please enter a job description.';
-        errorMsg.style.display = 'block';
-        return;
-      }
 
       errorMsg.style.display = 'none';
       btn.disabled = true;
@@ -323,37 +328,26 @@
       spinner.style.display = 'block';
       outputCard.classList.remove('visible');
 
-      const payload = {
-        customerName: document.getElementById('customerName').value.trim(),
-        location: document.getElementById('location').value.trim(),
-        budget: document.getElementById('budget').value.trim(),
-        timeline: document.getElementById('timeline').value,
-        dimensions: document.getElementById('dimensions').value.trim(),
-        jobType: document.getElementById('jobType').value,
-        description,
-      };
+      const form = new FormData();
+      files.forEach(f => form.append('screenshots', f));
 
       try {
-        const res = await fetch('/api/generate', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        });
+        const res = await fetch('/api/generate', { method: 'POST', body: form });
         const data = await res.json();
-        if (!res.ok) throw new Error(data.error || 'Unknown error');
+        if (!res.ok) throw new Error(data.error || 'Something went wrong');
 
         document.getElementById('output-text').textContent = data.message;
         outputCard.classList.add('visible');
+        outputCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
         const copyBtn = document.getElementById('copyBtn');
-        copyBtn.textContent = 'Copy';
         copyBtn.className = 'btn-copy';
-        copyBtn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy`;
+        copyBtn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy &amp; Send`;
       } catch (err) {
         errorMsg.textContent = err.message;
         errorMsg.style.display = 'block';
       } finally {
-        btn.disabled = false;
+        btn.disabled = files.length === 0;
         btnText.style.display = 'inline';
         spinner.style.display = 'none';
       }
@@ -363,18 +357,14 @@
       const text = document.getElementById('output-text').textContent;
       navigator.clipboard.writeText(text).then(() => {
         const btn = document.getElementById('copyBtn');
-        btn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Copied!`;
+        btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Copied!`;
         btn.className = 'btn-copy copied';
         setTimeout(() => {
-          btn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy`;
+          btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy &amp; Send`;
           btn.className = 'btn-copy';
         }, 2000);
       });
     }
-
-    document.getElementById('description').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' && e.metaKey) generate();
-    });
   </script>
 </body>
 </html>
