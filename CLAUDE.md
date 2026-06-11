@@ -22,3 +22,9 @@ Previous messages were content moderated on Airtasker. The rules above keep mess
 
 ### Format to output:
 Just the message, ready to copy and paste. Nothing else unless the user asks for a tweak.
+
+## Routing
+
+| Workstation | Use when... |
+|---|---|
+| Email HQ | ...need to draft, reply to, or review any email |
