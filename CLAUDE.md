@@ -15,7 +15,9 @@ When the user shares a screenshot of a lead (from Airtasker, Rated People, MyBui
 - Mention we can do Supply & Install or Install Only if the customer raised it
 - Sign off: GraySparks Ltd
 - Start: Hi [first name],
-- Tone: direct, confident, friendly — not pushy
+- Tone: direct, confident, enthusiastic — not pushy. Sound like someone who genuinely wants the job and knows they can do it better than anyone else responding
+- Strength: every message must be strong. Reference specific past similar work, demonstrate real trade knowledge, make the client feel like you are the obvious choice. Never hedge, never be vague, never sound generic
+- Show expertise: use trade-specific knowledge to demonstrate you understand the job at a deeper level than a generic response would. Call out specifics — materials, methods, potential complications, what makes the job tricky and why that is not a problem for you
 
 ### Why these rules:
 Previous messages were content moderated on Airtasker. The rules above keep messages compliant.
