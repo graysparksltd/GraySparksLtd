@@ -25,6 +25,8 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 
 **Unresolved as of 29 Aug — the underside figure has resurfaced at 885, not 895.** A hand-drawn site sketch (Side Profile, see Site Sketches Update below) labels the underside as 885mm against a 920 worktop, not the 895 recorded as final above. This may simply be an older reading captured on the same sketch sheet, or it may be a genuine re-measure — either way it is not yet reconciled. Do not cut the covered faces off either figure until this is checked against the datum on site.
 
+**Correction, 30 Aug — "Covered face, run A" and "Covered face, run B" were never real pieces and have been retired.** Both sat in the Area 1 cut list as continuous ready-to-cut panels (4100mm and 4300mm) — a leftover from the original rough elevation spec, never reconciled against the actual layout once the sketches nailed it down. The real construction on both runs is identical: cupboard units either side of each appliance, appliance sitting bare in the open recess, no panel over or around it. Coverage is the cupboard doors plus the return panel and Run A's corner detail — see Area 1 in the Cut List.
+
 ## Site reference — 5 photos (Aaron's annotated walkthrough)
 
 Site photos of the existing back-bar run, annotated by Aaron in yellow to mark zones, clearances and open questions. These are the primary reference for the Zone 1–5 breakdown used throughout this pack. Four of the five have now been reviewed directly (below); the fifth has not yet been supplied.
@@ -259,13 +261,13 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 
 ### Area 1 — back bar
 
+**Correction (30 Aug) — there is no continuous covered face panel on either run.** The original "Covered face, run A" and "Covered face, run B" entries were a rough leftover from the initial elevation spec, never reconciled against the actual layout your sketches established. The real construction on *both* runs is identical: cupboard units built either side of each appliance, with the appliance itself sitting bare in the open recess — no panel over or around it, doors/fronts fully exposed. Coverage comes entirely from the cupboard doors (already itemized below) plus the return panel and Run A's corner detail. Retired both rows below rather than leaving a wrong "ready" item in the list.
+
 | Component | Length | Height / depth | Angle / notes | Status |
 |---|---|---|---|---|
-| Covered face, run A | 4100 +20mm oversize | 895mm (final) | Square cut, scribe bottom on site | ready |
-| Covered face, run B | 4300 +20mm oversize | 895mm (final) | Square cut, scribe bottom on site | ready |
 | Covered face, return | 630 | 895mm (final) | Square | ready |
-| Corner mitre pair (both faces) | per above, mitred | 895mm (final) | 11.65° bevel each face (156.7° internal) | ready — dry-fit before glue |
-| Backing battens / framing, faces | to suit 895 ht | — | — | ready |
+| Corner mitre pair | per return + Run A corner piece | 895mm (final) | 11.65° bevel (156.7° internal) — joins the return to whatever forms the Run A corner (Question 22), not a continuous run face | hold — depends on Run A corner piece design |
+| Backing battens / framing | to suit 895 ht | — | Structural backing for the return panel and cupboard fronts | ready |
 | Shelf 1, run A | 4100 +20mm oversize | 400mm (confirmed) | At 655mm above worktop | ready |
 | Shelf 1, run B | 4300 +20mm oversize | 400mm (confirmed) | At 655mm above worktop | ready |
 | Shelf 2, both runs | TBC | height ≈330 / depth ≈300 TBC (design received from Aaron, awaiting transcription) | Feature / stepped design — dimensions to copy from Aaron's design once reviewed | hold — transcribe dims from received design |
@@ -365,8 +367,8 @@ Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCK
 - Measure the two IKEA cupboard widths on run A, and the run B IKEA units (one already delivered) — see the standard-sizes working hypothesis (80cm/60cm) to check against.
 
 ### 3. Site — back bar — Build Week 1, Mon–Wed
-- Fit and scribe bar covered faces, runs A and B, and return.
-- Fit the corner mitre.
+- Fit and scribe the return panel; fit cupboard doors as carcasses are set; coolers/freezers sit bare in their open recesses.
+- Fit the corner mitre once the Run A corner piece is confirmed.
 - Template and scribe the roof slope; cut and fit Shelf 1 and Shelf 2 to confirmed dims.
 - Realign existing legs, service side.
 - Begin front base / bench work if dims were confirmed in Phase 2.
@@ -401,16 +403,16 @@ The Zone 1–5 back-bar sequence folded into the full job order — geometry-dep
 
 10. Order sheet goods, timber, brackets, fixings, finish and consumables (excluding bread-bin hinges) for Monday/Tuesday delivery.
 11. Break down sheet stock into oversize blanks.
-12. Cut all READY cut-list items to final size — bar covered faces runs A & B, return, corner mitre pair, backing battens.
-13. Cut and dry-fit the bar corner mitre pair (11.65° bevel each face).
+12. Cut all READY cut-list items to final size — the return panel, backing battens, Shelf 1 both runs. The corner mitre waits on the Run A corner piece design (Question 22); there's no continuous run A/B face panel to cut — coverage is cupboard doors plus bare appliance recesses.
+13. Once the Run A corner piece is confirmed, cut and dry-fit the corner mitre (11.65° bevel each face).
 14. Machine and lip all shelf stock edges; leave final length uncut wherever a dimension is still HOLD/BLOCKED.
 15. Apply the first seal coat to all cut, READY components — leave scribe edges bare.
 16. Build the roof-slope scribe template blank, ready to fit on site.
 
 **Site — Build Week 1, back bar**
 
-17. Fit and scribe the bar covered faces (runs A & B) and the return to the true wall / floor line.
-18. Fit the corner mitre.
+17. Fit and scribe the return panel to the true wall / floor line; fit cupboard doors as their carcasses are set; coolers and freezers sit bare in their open recesses on both runs — no panel over or around them.
+18. Fit the corner mitre, once the Run A corner piece is confirmed.
 19. Template and scribe the roof slope on site; cut Zone 1's box-structure carcass first — it's the most geometry-dependent and benefits from the longest lead time to correct.
 20. Fit the stepped feature shelf into the Zone 1 kink once the carcass sides are confirmed true.
 21. Cut and fit Zone 3 (glass storage) in parallel — no open decisions, lowest risk.
@@ -581,8 +583,7 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 
 **Workshop, this week**
 - [ ] Sheet stock broken down
-- [ ] All READY cut-list items cut to final size
-- [ ] Corner mitre pair cut and dry-fitted
+- [ ] All READY cut-list items cut to final size (return panel, backing battens, Shelf 1 both runs)
 - [ ] Shelf stock machined, lipped, edges finished
 - [ ] First seal coat applied to READY components
 - [ ] Roof-slope scribe template made
@@ -600,8 +601,8 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 - [ ] Bottom-vs-top shelf height for bigger liquor bottles confirmed, and the wall height at the far end of the run measured
 
 **Site — Build Week 1**
-- [ ] Covered faces fitted and scribed, runs A + B + return
-- [ ] Corner mitre fitted
+- [ ] Return panel fitted and scribed; cupboard doors fitted as carcasses are set; coolers/freezers sitting bare in their recesses, both runs
+- [ ] Corner mitre fitted (once Run A corner piece confirmed)
 - [ ] Roof slope templated and scribed
 - [ ] Shelf 1 fitted, both runs
 - [ ] Shelf 2 fitted, both runs
