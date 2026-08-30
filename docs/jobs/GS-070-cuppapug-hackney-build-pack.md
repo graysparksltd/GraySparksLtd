@@ -266,20 +266,20 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Covered face, return | 630 | 895mm (final) | Square | ready |
 | Corner mitre pair (both faces) | per above, mitred | 895mm (final) | 11.65° bevel each face (156.7° internal) | ready — dry-fit before glue |
 | Backing battens / framing, faces | to suit 895 ht | — | — | ready |
-| Shelf 1, run A | 4100 | depth 400 TBC | At 655mm above worktop | hold — confirm depth |
-| Shelf 1, run B | 4300 | depth 400 TBC | At 655mm above worktop | hold — confirm depth |
-| Shelf 2, both runs | TBC | height ≈330 / depth ≈300 TBC | Feature / stepped design pending | blocked — not measured, design not agreed |
+| Shelf 1, run A | 4100 +20mm oversize | 400mm (confirmed) | At 655mm above worktop | ready |
+| Shelf 1, run B | 4300 +20mm oversize | 400mm (confirmed) | At 655mm above worktop | ready |
+| Shelf 2, both runs | TBC | height ≈330 / depth ≈300 TBC (design received from Aaron, awaiting transcription) | Feature / stepped design — dimensions to copy from Aaron's design once reviewed | hold — transcribe dims from received design |
 | Roof-slope scribe template | — | — | Site gauge 142.3° vs derived 137.7° — unresolved | template only — do not cut panels |
 
 ### Area 2 — front base & bench
 
 | Component | Length | Height / depth | Angle / notes | Status |
 |---|---|---|---|---|
-| Base run (display, retained ht) | 3300 | 230mm high, 400 deep | Square | hold — confirm condition of existing 230 base first |
+| Base run (display, retained ht) | 3300 | 230mm high, 400 deep (to be doubled — see Q10) | Square. Condition confirmed sound; build-up method: double the height, refit original top board | hold — depends on confirmed bench height (Question 11) |
 | Step-out face | 950 (incl. 400) | 230mm | Square | hold |
 | Angled leg | 710 | 230mm → bench ht at end | 22.4° bevel each face (224.8° turn, 135.2° internal) — confirm 224.6 vs 224.8 | hold — resolve angle |
 | Bench run | 1700 | raise 230 → nominal 1000 | Seating-grade framing | blocked — confirm actual height (900–1110 range given) |
-| Bench / base junction detail | — | — | Returned end / step face / taper — not yet decided | blocked — needs decision |
+| Bench / base junction detail | — | — | Method confirmed: plinth face fitted wherever feet are visible, sized to whatever height remains — not a fixed returned-end/step/taper style | hold — no fixed dims, scribed and fitted on site |
 
 ### Area 3 — TV wall shelving
 
