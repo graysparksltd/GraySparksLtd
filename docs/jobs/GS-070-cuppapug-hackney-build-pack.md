@@ -34,7 +34,7 @@ Site photos of the existing back-bar run, annotated by Aaron in yellow to mark z
 ![Zone 4/5 — computer space, existing pine shelving, and blenders with lid-clearance note](GS-070-assets/site-photo-zone4-5-computer-blender.jpg)
 
 - Confirms the physical layout left to right: the existing pine shelving unit (bottom shelf holds the iMac, labelled "COMPUTER SPACE"; shelves above hold merch and coffee sachets) — then a wall bay with a yellow grid marked across it — then the two Buffalo-branded blenders, annotated "Enough height for Blender lids to open upwards."
-- **The gridded wall bay between the computer shelving and the blenders is the same run of open shelving the 29 Aug voice note described** (see Site Sketches Update above) — this photo now confirms its position by sight rather than by description alone. It sits directly above the existing pine unit and to the left of the blenders, matching "between the computer cupboards and the blender bay."
+- **The gridded wall bay between the computer shelving and the blenders is the same run of open shelving Aaron's 29 Aug notes described** (see Site Sketches Update above) — this photo now confirms its position by sight rather than by description alone. It sits directly above the existing pine unit and to the left of the blenders, matching "between the computer cupboards and the blender bay."
 - Blender clearance is annotated but not dimensioned in the photo — Question 24's decision (build open to the ceiling, no shelf yet) still stands; a hard number for the lid-swing height is still not given here.
 
 **Zone 1b — spirit run**
@@ -63,9 +63,9 @@ Site photos of the existing back-bar run, annotated by Aaron in yellow to mark z
 - **Zone 3 · Glass storage** — Open shelving above the drinks fridges — confirmed, sized to tumblers, jars and flute glasses below.
 - **Zone 4 & 5 · Computer + blender** — Existing pine cubby (build around it) and two blenders with lids that need clearance to open upward; no shelf above. The open-shelf run between them is now photo-confirmed — see above.
 
-## Site sketches update — 29 Aug 2026 (voice note + hand sketches)
+## Site sketches update — 29 Aug 2026 (hand sketches + attached notes)
 
-Three hand-drawn site sketches and a voice-note transcript, supplied after the original survey. These sharpen the below-worktop cupboard detail and the above-worktop left-hand run, and raise one new figure conflict. Read alongside the Elevations and Cut List sections below — they don't replace those, they add site-level detail on top.
+Three hand-drawn site sketches and the notes Aaron attached to them, supplied after the original survey. These sharpen the below-worktop cupboard detail and the above-worktop left-hand run, and raise one new figure conflict. Read alongside the Elevations and Cut List sections below — they don't replace those, they add site-level detail on top.
 
 **Run A (4100, left) — below worktop**
 
@@ -73,7 +73,7 @@ Three hand-drawn site sketches and a voice-note transcript, supplied after the o
 
 - Confirms the physical order: cupboard · coolers (Adexa, hatched "FRIDGES") · cupboard · blenders (marked "full height") · coolers · corner — consistent with the cut list's cupboard–cooler–cupboard–cooler run.
 - **New detail: the two cupboards are existing/purchased IKEA carcass units, not built-from-scratch joinery.** Each needs a plinth face added to cover its legs. This changes the cupboard cut-list items below from "carcass + doors" to "plinth face + door treatment on an IKEA shell."
-- **The two IKEA units are not equal widths.** The voice note is explicit: "the one on the left looks slightly wider, and the one between the two fridges looks slightly narrower." This supersedes the derived even 715 / 715 split in the Bay Arithmetic table — the two cupboard bays need to be measured individually, not assumed equal.
+- **The two IKEA units are not equal widths.** The attached notes are explicit: "the one on the left looks slightly wider, and the one between the two fridges looks slightly narrower." This supersedes the derived even 715 / 715 split in the Bay Arithmetic table — the two cupboard bays need to be measured individually, not assumed equal.
 - Sketch marks one unit "CONFIRM" against a door detail at the far left end — width still to be nailed down before the plinth face is cut.
 
 **Run B (4300, right) — below worktop**
@@ -89,14 +89,14 @@ Three hand-drawn site sketches and a voice-note transcript, supplied after the o
 ![Side profile sketch — bar depth, worktop and Shelf 1 depth](GS-070-assets/site-sketch-side-profile.jpg)
 
 - Confirms 650mm bar/counter depth and a 400mm depth note for the above-worktop box structure ("Shelf 1"), labelled "ALL UNITS LEAVE 400."
-- **Sets a working ceiling on Shelf 1 depth, not just a starting assumption.** Voice note: "there needs to be at least 400mm [of unit depth]. That leaves at least 250mm of workspace where the cupboards are" — i.e. 650mm counter depth − 400mm of overhead unit ≈ 250mm clear counter workspace. 400mm is close to the practical maximum before the counter workspace gets too tight, not just a placeholder figure. Still needs Aaron's sign-off as an exact number (Question 9), but it's now a bounded range rather than an open guess.
+- **Sets a working ceiling on Shelf 1 depth, not just a starting assumption.** Aaron's notes: "there needs to be at least 400mm [of unit depth]. That leaves at least 250mm of workspace where the cupboards are" — i.e. 650mm counter depth − 400mm of overhead unit ≈ 250mm clear counter workspace. 400mm is close to the practical maximum before the counter workspace gets too tight, not just a placeholder figure. Still needs Aaron's sign-off as an exact number (Question 9), but it's now a bounded range rather than an open guess.
 - **Flags the underside conflict noted above** — this sketch's own figures read 920 (worktop) and 885 (underside), not 920/895. Treat as unreconciled, see the new Reconcile item (Question 28) below.
 
-**Above-worktop, left-hand run (from the voice note — no matching sketch supplied)**
+**Above-worktop, left-hand run (from Aaron's attached notes — no matching sketch supplied)**
 
 - Computer nook: sized for a 21″ MacBook/iMac, with two storage cupboards above it, **doors opening outward** (not the inward-swinging soft-close overlay style already specified for the bar-face cupboards — confirm this is a deliberate difference before ordering hinges for this section).
 - Next to the computer nook: **a new run of four open storage shelves**, spacing matched to the Zone 3 glass storage on the right-hand side. This is a shelf position not previously listed in the Zone 1–5 breakdown — treat it as an addition between the computer cupboards and the blender bay.
-- Blender bay: full height, no shelf for now — matches the Zone 5 decision already recorded (Question 24). The voice note gives the same reasoning: leave it open until real lid-swing clearance is visible, then decide on a shelf.
+- Blender bay: full height, no shelf for now — matches the Zone 5 decision already recorded (Question 24). Aaron's notes give the same reasoning: leave it open until real lid-swing clearance is visible, then decide on a shelf.
 
 **CuppaPug Site Sheet (printable Q&A summary)** — a one-page print version of the Questions & Confirmations list below was also supplied as a PDF; its content matches this pack and isn't reproduced separately here.
 
@@ -318,8 +318,8 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
 | Z3 | Glass storage dividers | 3 | TBC | 280mm | Match spacing to glassware in site photo |
 | Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it |
-| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per voice note, confirm this is deliberate before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
-| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both the voice note and the Zone 4/5 site photo; exact dims not yet measured |
+| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per Aaron's attached notes, confirm this is deliberate before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
+| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both Aaron's attached notes and the Zone 4/5 site photo; exact dims not yet measured |
 | Z5 | Blender bay — box, open to ceiling | 1 | TBC | TBC | Sloped ceiling follows roof line, no shelf at this stage — groove sides for a possible later shelf |
 | All | Long panels — general | — | +20mm | — | Standard oversize rule for on-site scribing |
 
@@ -510,10 +510,10 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Right (run B, 4300): double cupboard · fridge · cupboard · fridge · cupboard · fridge → then the end section, left for now.
     Two things to note. First, this describes the carcass layout below the worktop — the above-bar Bay 1–5 widths in the elevation are a separate division and are still open. Second, bay widths can't be set by dividing 4100 ÷ 8 — the fridges are fixed-width, so measure each fridge and let the cupboards absorb the remainder. That measurement is now the blocking item for this run.
 
-### New — from the 29 Aug site sketches & voice note
+### New — from the 29 Aug site sketches & attached notes
 
 26. **What are the actual widths of the two IKEA cupboard units on run A?**
-    Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and voice note both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
+    Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and the attached notes both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
 27. **What is the actual width of the run B IKEA units, now one is on site?**
     Affects: run B cupboard widths, both the double unit and the single. The single IKEA unit is marked "received" on the site sketch — measure it directly once unpacked rather than using the derived 797mm. The double unit is sketched at ≈1600mm, close to the derived 1594 — worth a tape-check but not flagged as a conflict.
 28. **Reconcile — bar underside 885 or 895?**
