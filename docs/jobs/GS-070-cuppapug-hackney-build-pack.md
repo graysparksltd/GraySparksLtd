@@ -23,6 +23,8 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 
 **Open risk — coolers fit but on 2mm, which is not a working clearance.** Underside of the bar is now 895mm (supersedes the earlier 880, closes the old 880-vs-885 question). The Adexa coolers measure 893mm, leaving 2mm. On paper it fits; in practice it doesn't — these are 86kg freestanding units on castors that have to roll in and out for cleaning and servicing, and 2mm is consumed by the first dip in the floor. A unit that can only be installed by lifting the worktop off is a unit that can never be serviced. Decide the target clearance before cutting run A — see Appliance Schedule below.
 
+**Unresolved as of 29 Aug — the underside figure has resurfaced at 885, not 895.** A hand-drawn site sketch (Side Profile, see Site Sketches Update below) labels the underside as 885mm against a 920 worktop, not the 895 recorded as final above. This may simply be an older reading captured on the same sketch sheet, or it may be a genuine re-measure — either way it is not yet reconciled. Do not cut the covered faces off either figure until this is checked against the datum on site.
+
 ## Site reference — 5 photos (Aaron's annotated walkthrough)
 
 Site photos of the existing back-bar run, annotated by Aaron in yellow to mark zones, clearances and open questions. These are the primary reference for the Zone 1–5 breakdown used throughout this pack.
@@ -32,6 +34,43 @@ Site photos of the existing back-bar run, annotated by Aaron in yellow to mark z
 - **Zone 2 · Appliance run** — Toastie machine, air fryer, toaster, microwave, speaker. Doors vs. open shelving — still unconfirmed.
 - **Zone 3 · Glass storage** — Open shelving above the drinks fridges — confirmed, sized to tumblers, jars and flute glasses below.
 - **Zone 4 & 5 · Computer + blender** — Existing pine cubby (build around it) and two blenders with lids that need clearance to open upward; no shelf above.
+
+## Site sketches update — 29 Aug 2026 (voice note + hand sketches)
+
+Three hand-drawn site sketches and a voice-note transcript, supplied after the original survey. These sharpen the below-worktop cupboard detail and the above-worktop left-hand run, and raise one new figure conflict. Read alongside the Elevations and Cut List sections below — they don't replace those, they add site-level detail on top.
+
+**Run A (4100, left) — below worktop**
+
+![Run A, 4100mm — cupboard/cooler/blender layout sketch](GS-070-assets/site-sketch-run-a-4100.jpg)
+
+- Confirms the physical order: cupboard · coolers (Adexa, hatched "FRIDGES") · cupboard · blenders (marked "full height") · coolers · corner — consistent with the cut list's cupboard–cooler–cupboard–cooler run.
+- **New detail: the two cupboards are existing/purchased IKEA carcass units, not built-from-scratch joinery.** Each needs a plinth face added to cover its legs. This changes the cupboard cut-list items below from "carcass + doors" to "plinth face + door treatment on an IKEA shell."
+- **The two IKEA units are not equal widths.** The voice note is explicit: "the one on the left looks slightly wider, and the one between the two fridges looks slightly narrower." This supersedes the derived even 715 / 715 split in the Bay Arithmetic table — the two cupboard bays need to be measured individually, not assumed equal.
+- Sketch marks one unit "CONFIRM" against a door detail at the far left end — width still to be nailed down before the plinth face is cut.
+
+**Run B (4300, right) — below worktop**
+
+![Run B, 4300mm — double/single IKEA unit and freezer layout sketch](GS-070-assets/site-sketch-run-b-4300.jpg)
+
+- Shows the same IKEA-carcass approach on run B: a double IKEA unit (annotated close to 1600mm — in line with the 1594 derived figure) and a single IKEA unit, with the two freezers between them.
+- **The single IKEA unit is annotated "received"** — i.e. already delivered stock. Once it's unpacked, measure its actual width and use that in place of the derived 797mm single-cupboard figure, rather than assuming the manufacturer's nominal size.
+- A rough plan at the bottom repeats the cocktail-section note ("bar wraps around") — still not a substitute for the dimensioned measurement Question 14 asks for.
+
+**Side profile — depth**
+
+![Side profile sketch — bar depth, worktop and Shelf 1 depth](GS-070-assets/site-sketch-side-profile.jpg)
+
+- Confirms 650mm bar/counter depth and a 400mm depth note for the above-worktop box structure ("Shelf 1"), labelled "ALL UNITS LEAVE 400."
+- **Sets a working ceiling on Shelf 1 depth, not just a starting assumption.** Voice note: "there needs to be at least 400mm [of unit depth]. That leaves at least 250mm of workspace where the cupboards are" — i.e. 650mm counter depth − 400mm of overhead unit ≈ 250mm clear counter workspace. 400mm is close to the practical maximum before the counter workspace gets too tight, not just a placeholder figure. Still needs Aaron's sign-off as an exact number (Question 9), but it's now a bounded range rather than an open guess.
+- **Flags the underside conflict noted above** — this sketch's own figures read 920 (worktop) and 885 (underside), not 920/895. Treat as unreconciled, see the new Reconcile item (Question 28) below.
+
+**Above-worktop, left-hand run (from the voice note — no matching sketch supplied)**
+
+- Computer nook: sized for a 21″ MacBook/iMac, with two storage cupboards above it, **doors opening outward** (not the inward-swinging soft-close overlay style already specified for the bar-face cupboards — confirm this is a deliberate difference before ordering hinges for this section).
+- Next to the computer nook: **a new run of four open storage shelves**, spacing matched to the Zone 3 glass storage on the right-hand side. This is a shelf position not previously listed in the Zone 1–5 breakdown — treat it as an addition between the computer cupboards and the blender bay.
+- Blender bay: full height, no shelf for now — matches the Zone 5 decision already recorded (Question 24). The voice note gives the same reasoning: leave it open until real lid-swing clearance is visible, then decide on a shelf.
+
+**CuppaPug Site Sheet (printable Q&A summary)** — a one-page print version of the Questions & Confirmations list below was also supplied as a PDF; its content matches this pack and isn't reproduced separately here.
 
 ## Elevations & survey drawings (redrawn from Rev B & Rev A)
 
@@ -59,6 +98,8 @@ Worktop: 920 finished / 895 underside.
 4300 − 1113 = 3187 → 797 singles / 1594 double.
 
 Shaded = appliance opening (no carcass) · outlined = cupboard carcass · dashed = corner piece, detail TBC. Widths derived from manufacturer specs, zero filler allowance. Run A assumes "three fridges" = one 3-door cooler — confirmed. Not to scale.
+
+**Update — cupboards are IKEA carcasses, not built joinery.** Per the Site Sketches Update above, every cupboard position on both runs is an existing/purchased IKEA unit dressed with a plinth face to cover its legs, not a from-scratch carcass. The 715/715 (run A) and 797/1594 (run B) figures above remain the design starting point, but run A's two cupboards are confirmed *not* equal width on site — measure each individually — and run B's single IKEA unit is already delivered and should be measured directly rather than assumed.
 
 ### Back-bar — plan & section (Rev B), survey 21 Aug 2026
 
@@ -212,12 +253,12 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 
 | Component | Length | Height | Notes | Status |
 |---|---|---|---|---|
-| Run A — cupboard 1 | 715 derived | 895 to bar underside | (4100 − 2×1335) ÷ 2 | hold — vent figure |
-| Run A — cupboard 2 | 715 derived | 895 to bar underside | (4100 − 2×1335) ÷ 2 | hold — vent figure |
+| Run A — cupboard 1 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 2 on site | 895 to bar underside | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — vent figure + measure IKEA unit |
+| Run A — cupboard 2 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 1 on site | 895 to bar underside | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — vent figure + measure IKEA unit |
 | Run A — cooler openings | 2 × 1335 + vent | 895 vs 893 unit = 2mm | Adexa 3-door — opening only. 2mm will not roll in and out | blocked — agree target clearance |
 | Run A — corner piece | TBC | 895 | Closes the gap at the 156.7° corner — detail not yet agreed | blocked — needs decision |
-| Run B — double cupboard | 1594 derived | 895 | First bay, 2 bays wide — before vent allowance | hold — vent figure |
-| Run B — cupboards 2 & 3 | 2 × 797 derived | 895 | Bay 3 was an appliance position in the original layout | hold — vent figure |
+| Run B — double cupboard (IKEA unit + plinth face) | 1594 derived, ≈1600 per site sketch | 895 | First bay, 2 bays wide — before vent allowance. Existing/purchased IKEA carcass, add plinth face | hold — vent figure |
+| Run B — cupboards 2 & 3 (IKEA units + plinth face) | 2 × 797 derived | 895 | Bay 3 was an appliance position in the original layout. One single IKEA unit already received — measure its actual width once unpacked rather than using the derived figure | hold — vent figure + measure received unit |
 | Run B — COMFEE' opening | 553 + vent | 845 H × 574 D + vent | Freestanding — add vent allowance from manual | hold — vent figure |
 | Run B — Hisense FV105 opening | 560 + vent | 845 H × 575 D + vent | Freestanding — add vent allowance from manual | hold — vent figure |
 | Run B — end section | — | — | Deferred by client — not in this build | deferred |
@@ -249,6 +290,8 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
 | Z3 | Glass storage dividers | 3 | TBC | 280mm | Match spacing to glassware in site photo |
 | Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it |
+| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per voice note, confirm this is deliberate before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
+| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay, per voice note. Position and exact dims not yet measured |
 | Z5 | Blender bay — box, open to ceiling | 1 | TBC | TBC | Sloped ceiling follows roof line, no shelf at this stage — groove sides for a possible later shelf |
 | All | Long panels — general | — | +20mm | — | Standard oversize rule for on-site scribing |
 
@@ -352,7 +395,7 @@ The Zone 1–5 back-bar sequence folded into the full job order — geometry-dep
 34. Final fixings, touch-ups, hardware check.
 35. Invoice the balance (£2,100) on completion; payment due within 7 days.
 
-## Questions & confirmations (25 items · 11 answered, 14 outstanding)
+## Questions & confirmations (28 items · 11 answered, 17 outstanding)
 
 Nothing marked hold or blocked in the cut list should reach the saw until its question here is answered. Answers received are recorded below as **Answered**; figures marked *derived* were calculated from an answer rather than measured, and want one sanity-check on site before cutting.
 
@@ -438,6 +481,15 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Right (run B, 4300): double cupboard · fridge · cupboard · fridge · cupboard · fridge → then the end section, left for now.
     Two things to note. First, this describes the carcass layout below the worktop — the above-bar Bay 1–5 widths in the elevation are a separate division and are still open. Second, bay widths can't be set by dividing 4100 ÷ 8 — the fridges are fixed-width, so measure each fridge and let the cupboards absorb the remainder. That measurement is now the blocking item for this run.
 
+### New — from the 29 Aug site sketches & voice note
+
+26. **What are the actual widths of the two IKEA cupboard units on run A?**
+    Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and voice note both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
+27. **What is the actual width of the run B IKEA units, now one is on site?**
+    Affects: run B cupboard widths, both the double unit and the single. The single IKEA unit is marked "received" on the site sketch — measure it directly once unpacked rather than using the derived 797mm. The double unit is sketched at ≈1600mm, close to the derived 1594 — worth a tape-check but not flagged as a conflict.
+28. **Reconcile — bar underside 885 or 895?**
+    Affects: every covered-face height and below-worktop carcass height, i.e. potentially all of Area 1. The Side Profile sketch labels the underside as 885mm against a 920 worktop — not the 895 figure recorded as final under Question 7. This may be an earlier reading sitting on the same sketch sheet, or a genuine re-measure taken after the "final" answer was recorded. Verify 895 vs 885 at 2–3 points along the run with the datum stated explicitly before cutting the covered faces — this cannot be left as an assumption given it's the cutting dimension for the whole of Area 1.
+
 ## Tools to pack — site day
 
 | Category | Pack |
@@ -459,6 +511,9 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 - [ ] Cooler feet/castors checked — can height be gained for free?
 - [ ] Cooler bay clearance agreed with Aaron (target 20–25mm)
 - [ ] Vent clearances obtained from all three manuals
+- [ ] Bar underside re-verified as 895 or 885 (Side Profile sketch conflict — see Question 28)
+- [ ] Run A IKEA cupboard widths measured individually (not assumed 715/715)
+- [ ] Run B IKEA unit widths measured (single unit received on site)
 - [ ] Materials ordered for Monday/Tuesday delivery
 
 **Workshop, this week**
