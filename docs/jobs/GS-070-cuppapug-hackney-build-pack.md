@@ -129,6 +129,15 @@ Shaded = appliance opening (no carcass) · outlined = cupboard carcass · dashed
 
 **Update — cupboards are IKEA carcasses, not built joinery.** Per the Site Sketches Update above, every cupboard position on both runs is an existing/purchased IKEA unit dressed with a plinth face to cover its legs, not a from-scratch carcass. The 715/715 (run A) and 797/1594 (run B) figures above remain the design starting point, but run A's two cupboards are confirmed *not* equal width on site — measure each individually — and run B's single IKEA unit is already delivered and should be measured directly rather than assumed.
 
+**Working hypothesis — most likely real IKEA sizes (30 Aug, unconfirmed — tape-check on site, do not cut to this).** IKEA base-cabinet ranges (the current METOD system, almost certainly what's on site) come in a small fixed set of sizes, so the derived even-split figures above were never going to be the real widths. Reasoning back from the numbers we do have:
+
+- **Height:** METOD's 80cm-tall body sits on adjustable legs (roughly 60–100mm of travel). 800 + 85–100mm of leg ≈ 885–900mm — this brackets *both* the 885 and 895 figures in the underside conflict (Question 28). That conflict may not be a measuring error at all: it could simply be two units along the run with their legs wound to different heights, which is a five-minute fix on site rather than something to "reconcile" on paper.
+- **Depth:** standard body depth is 60cm; a worktop typically overhangs the cabinet front a few cm for door clearance — 600 + ~50mm ≈ 650mm, matching the counter depth in the Side Profile sketch.
+- **Run B widths:** the derived 797mm single is almost certainly a real **80cm (800mm)** cabinet, and the ≈1600mm "double" is most likely just **two 80cm cabinets side by side** (2 × 800 = 1600mm) — which also explains the "double" naming.
+- **Run A widths:** for the uneven pair to fit within 1430mm with one visibly wider than the other, the best fit is **80cm (wider, left end) + 60cm (narrower, between the coolers) = 1400mm**, leaving ~30mm slack across the run for scribe/filler — normal, not an error.
+
+Bring a tape (and the hex key for the cabinet legs) to check this against the real units rather than measuring blind — but treat 80cm/60cm as the expected answer, not a surprise.
+
 ### Back-bar — plan & section (Rev B), survey 21 Aug 2026
 
 **Plan view:** counter (existing worktop stays), 650 depth, 4100 wall run A, 4300 wall run B, R/A return, 630 to final wall, 156.7° internal (203.3° gauged, wall side). Service side: open, no panels — kegs/CO₂ stay, legs realigned only.
@@ -514,10 +523,13 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 
 26. **What are the actual widths of the two IKEA cupboard units on run A?**
     Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and the attached notes both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
+    **Working hypothesis (unconfirmed):** IKEA base cabinets only come in a small fixed set of widths. The best fit inside the 1430mm available is **80cm (wider, left end) + 60cm (narrower, middle) = 1400mm**, leaving ~30mm of normal scribe/filler slack. Tape-check this on site rather than assuming it — but expect 80/60, not another even split.
 27. **What is the actual width of the run B IKEA units, now one is on site?**
     Affects: run B cupboard widths, both the double unit and the single. The single IKEA unit is marked "received" on the site sketch — measure it directly once unpacked rather than using the derived 797mm. The double unit is sketched at ≈1600mm, close to the derived 1594 — worth a tape-check but not flagged as a conflict.
+    **Working hypothesis (unconfirmed):** the derived 797mm single is almost certainly a real **80cm (800mm)** IKEA cabinet, and the ≈1600mm "double" is most likely two 80cm cabinets side by side. Confirm on site, but 80cm is the expected answer for all of run B's units.
 28. **Reconcile — bar underside 885 or 895?**
     Affects: every covered-face height and below-worktop carcass height, i.e. potentially all of Area 1. The Side Profile sketch labels the underside as 885mm against a 920 worktop — not the 895 figure recorded as final under Question 7. This may be an earlier reading sitting on the same sketch sheet, or a genuine re-measure taken after the "final" answer was recorded. Verify 895 vs 885 at 2–3 points along the run with the datum stated explicitly before cutting the covered faces — this cannot be left as an assumption given it's the cutting dimension for the whole of Area 1.
+    **Possible explanation, not yet confirmed:** IKEA's standard 80cm cabinet body on its adjustable legs (typically 60–100mm of travel) lands almost exactly in the 885–900mm range depending on how the legs are wound. The 885-vs-895 spread may simply be two different units with their legs set differently, rather than a measuring error — worth checking each unit's actual leg height before assuming the drawing is wrong.
 
 ## Tools to pack — site day
 
@@ -526,7 +538,7 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 | Measuring | Tape measure, laser distance meter, digital angle gauge (re-check roof slope — 142.3° vs 137.7° still unresolved), spirit level |
 | Marking out | Pencils, combination square, sliding bevel (for the 156.7° corner and roof-kink angle) |
 | Cutting | Track saw + rail, jigsaw for scribing, hand saw for on-site trims |
-| Fixing | Cordless drill/driver, pilot bit set, screws matched to existing fixings, wall plugs for masonry behind pink cladding |
+| Fixing | Cordless drill/driver, pilot bit set, screws matched to existing fixings, wall plugs for masonry behind pink cladding, hex/Allen key for the IKEA cabinet legs (checking the 885-vs-895 leg-height theory — Question 28) |
 | Site-day specific | Do not pack hinges — until Aaron confirms the bread-bin cover mechanism and Zone 2 door decision |
 | Finishing | Sandpaper / block, damp cloth for dust, offcut for test-fit of the stepped shelf |
 | Protection | Dust sheets for the counter — glassware, spirits and till stay in place during the work |
