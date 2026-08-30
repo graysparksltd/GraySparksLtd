@@ -155,6 +155,10 @@ Feature stepped shelf follows the roof-kink line — cut to site angle, do not p
 - Row 3 (top) — height TBC.
 - Bay 1 width — TBC (part of the 4100mm leg, confirm split with Bay 2).
 
+**Two separate box units, not one (30 Aug).** Zone 1a (merch/dog-portrait end) and Zone 1b (the six-bay spirit run) are two distinct box-structure units built as one sequence, not a single continuous carcass. Zone 1a's height can be inferred from the roof-slope profile that's already established across the rest of the bar — working estimate **≈2–2.5m at that end**, to be confirmed on site once the roof-slope angle itself is settled (Question 8). Treat this as a planning figure, not a cutting dimension.
+
+**Batch-cutting strategy (30 Aug) — dividers and shelves standardised to 400mm.** Both units' depth is capped at 400mm for the same reason Shelf 1's depth is: any deeper and it starts eating into the 250mm of clear counter workspace established from the 650mm bar depth. Since every divider and shelf across both units shares that same 400mm width, cut them as long lengths at 400mm and batch-divide down to each bay's actual size, rather than measuring and cutting each divider or shelf individually — one saw setup for the whole run instead of one-off cuts.
+
 ### Front display & TV wall (Rev A), survey 21 Aug 2026 — rough, for concept & pricing
 
 **Plan — base unit:** 3300 base run, 400 deep, 230 high (retained); 710 @ 224.8° turn (resolve 224.6° vs 224.8°); 1700 bench zone, raise 230 → ≈1000 (TBC).
@@ -303,7 +307,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Run B — COMFEE' opening | 553 | 845 H × 574 D | Freestanding — no vent allowance added (decision, 30 Aug: size to cabinet width directly) | ready |
 | Run B — Hisense FV105 opening | 560 | 845 H × 575 D | Freestanding — no vent allowance added (decision, 30 Aug: size to cabinet width directly) | ready |
 | Run B — end section | — | — | Deferred by client — not in this build | deferred |
-| Cupboard doors, all bays | TBC | TBC | Soft-close full overlay hinges — confirmed, 20 in stock, 35mm cup hole boring | blocked — need carcass widths first |
+| Cupboard doors, all bays | TBC | TBC | Soft-close full overlay hinges — confirmed, 20 in stock, 35mm cup hole bored at a uniform offset from the door edge on every door regardless of width, for one batch-boring jig setup | blocked — need carcass widths first |
 
 ### Zone 5 — blender bay
 
@@ -323,11 +327,11 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 
 | Zone | Panel / component | Qty | Length | Width | Notes |
 |---|---|---|---|---|---|
-| Z1 | Back panel-face, box structure (roof-kink run) | 4 | per bay | — | hold — height depends on floor-to-worktop confirm |
-| Z1 | Stepped feature shelf at roof kink | 1 | TBC | TBC | Cut to site angle, do not pre-cut |
-| Z1 | Shelves (2 per bay standard) | 8 | TBC | 250mm | Oversize 20mm on length for scribing. Row 1 set to 350mm clear for standard spirit bottles (derived) |
+| Z1 | Dividers, box structure (roof-kink run) | 4 | per bay | 400mm (standardised, was per-bay) | Batch-cut as long 400mm-wide lengths across both Zone 1a &amp; 1b units, then divide to each bay's size — one saw setup, not per-bay. Hold — height depends on floor-to-worktop confirm |
+| Z1 | Stepped feature shelf at roof kink | 1 | TBC | TBC | Cut to site angle, do not pre-cut — template only |
+| Z1 | Shelves (2 per bay standard) | 8 | TBC | 400mm (standardised, was 250mm) | Oversize on length for scribing, cut from the same 400mm batch as the dividers. Row 1 set to 350mm clear for standard spirit bottles (derived) |
 | Z2 | Appliance run carcass sides / base | — | — | — | blocked — doors vs open not confirmed by Aaron |
-| Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | 35mm cup-hole hinge boring, same as bar-face doors — on hold pending Zone 2 doors-vs-open confirmation |
+| Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | 35mm cup-hole hinge boring at the same uniform offset as the bar-face doors — on hold pending Zone 2 doors-vs-open confirmation |
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
 | Z3 | Glass storage dividers | 3 | TBC | 280mm | Match spacing to glassware in site photo |
 | Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it |
