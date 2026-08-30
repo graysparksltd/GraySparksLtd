@@ -17,7 +17,7 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 | Build windows | 2× Mon–Wed closed days |
 | Working method | Fabricated & finish-coated in workshop; site days for fit only |
 
-**Read this first.** Worktop height, the gauge methodology, TV-wall shelf height, spirit-bottle clearance, hinge type, the blender-bay approach, the cupboard layout and the full appliance roster are settled. Shelf 2's design, bench height and the Zone 2 doors-vs-open decision remain open. The cut list flags every component ready/hold/blocked individually — see the Questions list before releasing anything to the saw.
+**Read this first.** Worktop height, the gauge methodology, TV-wall shelf height, spirit-bottle clearance, hinge type and quantity, the blender-bay approach, the cupboard layout, the full appliance roster, the ventilation-allowance decision, Shelf 2's design (received, not yet transcribed), the bench/base junction method, TV bracket position and the digital-menu question are all settled as of 30 Aug. Bench height, Zone 2 doors-vs-open, the two IKEA-cupboard-width questions and the 885-vs-895 underside conflict remain open — see the walkthrough plan below. The cut list flags every component ready/hold/blocked individually — see the Questions list before releasing anything to the saw.
 
 **Key datum:** worktop 920 finished, underside of bar 895 (a 25mm top). All covered faces and below-worktop carcasses are now cut to 895, which replaces both the original 885 and the interim 880.
 
@@ -63,9 +63,9 @@ Site photos of the existing back-bar run, annotated by Aaron in yellow to mark z
 - **Zone 3 · Glass storage** — Open shelving above the drinks fridges — confirmed, sized to tumblers, jars and flute glasses below.
 - **Zone 4 & 5 · Computer + blender** — Existing pine cubby (build around it) and two blenders with lids that need clearance to open upward; no shelf above. The open-shelf run between them is now photo-confirmed — see above.
 
-## Site sketches update — 29 Aug 2026 (hand sketches + attached notes)
+## Site sketches update — 29 Aug 2026 (GraySparks' own working sketches + notes)
 
-Three hand-drawn site sketches and the notes Aaron attached to them, supplied after the original survey. These sharpen the below-worktop cupboard detail and the above-worktop left-hand run, and raise one new figure conflict. Read alongside the Elevations and Cut List sections below — they don't replace those, they add site-level detail on top.
+Three hand-drawn working sketches (GraySparks' own, not Aaron's) and the notes attached to them, made after the original survey. These sharpen the below-worktop cupboard detail and the above-worktop left-hand run, and raise one new figure conflict. Read alongside the Elevations and Cut List sections below — they don't replace those, they add site-level detail on top.
 
 **Run A (4100, left) — below worktop**
 
@@ -89,14 +89,14 @@ Three hand-drawn site sketches and the notes Aaron attached to them, supplied af
 ![Side profile sketch — bar depth, worktop and Shelf 1 depth](GS-070-assets/site-sketch-side-profile.jpg)
 
 - Confirms 650mm bar/counter depth and a 400mm depth note for the above-worktop box structure ("Shelf 1"), labelled "ALL UNITS LEAVE 400."
-- **Sets a working ceiling on Shelf 1 depth, not just a starting assumption.** Aaron's notes: "there needs to be at least 400mm [of unit depth]. That leaves at least 250mm of workspace where the cupboards are" — i.e. 650mm counter depth − 400mm of overhead unit ≈ 250mm clear counter workspace. 400mm is close to the practical maximum before the counter workspace gets too tight, not just a placeholder figure. Still needs Aaron's sign-off as an exact number (Question 9), but it's now a bounded range rather than an open guess.
+- **Sets a working ceiling on Shelf 1 depth, not just a starting assumption.** The accompanying notes: "there needs to be at least 400mm [of unit depth]. That leaves at least 250mm of workspace where the cupboards are" — i.e. 650mm counter depth − 400mm of overhead unit ≈ 250mm clear counter workspace. 400mm is close to the practical maximum before the counter workspace gets too tight, not just a placeholder figure. Still needs sign-off as an exact number (Question 9), but it's now a bounded range rather than an open guess.
 - **Flags the underside conflict noted above** — this sketch's own figures read 920 (worktop) and 885 (underside), not 920/895. Treat as unreconciled, see the new Reconcile item (Question 28) below.
 
-**Above-worktop, left-hand run (from Aaron's attached notes — no matching sketch supplied)**
+**Above-worktop, left-hand run (from GraySparks' own working notes — no matching sketch supplied)**
 
 - Computer nook: sized for a 21″ MacBook/iMac, with two storage cupboards above it, **doors opening outward** (not the inward-swinging soft-close overlay style already specified for the bar-face cupboards — confirm this is a deliberate difference before ordering hinges for this section).
 - Next to the computer nook: **a new run of four open storage shelves**, spacing matched to the Zone 3 glass storage on the right-hand side. This is a shelf position not previously listed in the Zone 1–5 breakdown — treat it as an addition between the computer cupboards and the blender bay.
-- Blender bay: full height, no shelf for now — matches the Zone 5 decision already recorded (Question 24). Aaron's notes give the same reasoning: leave it open until real lid-swing clearance is visible, then decide on a shelf.
+- Blender bay: full height, no shelf for now — matches the Zone 5 decision already recorded (Question 24). These notes give the same reasoning: leave it open until real lid-swing clearance is visible, then decide on a shelf.
 
 **CuppaPug Site Sheet (printable Q&A summary)** — a one-page print version of the Questions & Confirmations list below was also supplied as a PDF; its content matches this pack and isn't reproduced separately here.
 
@@ -159,6 +159,8 @@ Feature stepped shelf follows the roof-kink line — cut to site angle, do not p
 
 **Elevation — TV wall:** base 230 (display) · bench 1000 beyond this wall. TV ≈65–70″, centred. Bays ≈800, adjustable, no backs. Top shelf at roof-kink, height TBC (measure this wall, don't reuse the bar's 655).
 
+**Update (30 Aug):** the digital menu and the TV are the same screen — there's no separate menu display to position, which is why it can sit lower than a typical TV-viewing height (Question 6). Bracket position: vertically centred at the midpoint of the height from the floor to the angled ceiling at that specific point on the wall (Question 5) — bracket depth still depends on the hardware chosen.
+
 ## Appliance schedule (manufacturer figures, 3 models)
 
 External dimensions from manufacturer spec, not site-measured. Every opening below the worktop is sized off these — check the model plate on each unit against this table before cutting, particularly the cooler, which has two variants at different heights.
@@ -173,7 +175,7 @@ External dimensions from manufacturer spec, not site-measured. Every opening bel
 
 **Correction — the "585 recess" figure in the previous revision was wrong.** An earlier revision said the Hisense needed a 585 × 595 × 875 recess. That figure was actually the packed carton size (580 × 596 × 873 per the manufacturer sheet), picked up from a search result that mislabelled it. It is not an installation dimension — do not size openings from it.
 
-These are all freestanding units, so there is no manufacturer built-in recess spec at all. Opening sizes come from cabinet width plus a ventilation and handling allowance set from each unit's manual. Rear clearance for a freestanding cooler is commonly around 50mm, but confirm per model rather than adopting that figure.
+These are all freestanding units, so there is no manufacturer built-in recess spec at all. **Decision (30 Aug): skip the ventilation/handling allowance.** Openings are cut to the cabinet widths directly (553mm COMFEE', 560mm Hisense, and the run A cupboard widths once measured) rather than adding a manual-derived clearance margin. This is the builder's explicit call for this job — it trades some rear-clearance/servicing margin for simplicity — and is separate from the cooler height-clearance problem below, which is unaffected and still critical.
 
 ### The cooler bays need a real clearance decision — 2mm is not one
 
@@ -190,7 +192,7 @@ Bar underside 895, cooler 893. Nominally it fits, but nothing about the installa
 
 | Option | What it costs | Knock-on |
 |---|---|---|
-| 1. Drop the coolers on their feet (check castors/adjustable feet first) | Nothing, if they have adjustable feet or removable castors | None — gains height without touching the joinery. Investigate this first. |
+| 1. Drop the coolers on their feet (check castors/adjustable feet first) | Nothing, if they have adjustable feet or removable castors | Possibly already done — the builder believes the castors/feet were already sorted before this job started, which would mean the measured 893mm already reflects the lowest achievable height and this option is exhausted, not fresh. Verify on site rather than assume it's untried. |
 | 2. Local worktop raise over the two cooler bays only | Joinery time; a stepped worktop line | Visible step in the bar top — needs Aaron's sign-off on the look |
 | 3. Raise the whole bar to 915–920 underside | Covered faces recut; everything worktop-referenced shifts | Shelf 1 at 655 above worktop moves with it; front bench relationship changes |
 | 4. Swap to BC03PP85, 850mm, same 1335×510 footprint | Two new coolers — client purchase | 45mm clear, no joinery change at all. Loses 12L per unit. |
@@ -208,7 +210,7 @@ Run B therefore carries two appliances, not the three the original layout implie
 | Run A — 2 × Adexa 3-door (4100 · cupb · cooler · cupb · cooler) | 2 × 1335 = 2670 | 1430 | 715 each (2 cupboards) | confirmed layout |
 | Run B — COMFEE' + FV105 (4300 · double · frz · cupb · frz · cupb) | 553 + 560 = 1113 | 3187 | 797 single / 1594 double | confirmed layout |
 
-All figures derived from manufacturer cabinet widths with zero ventilation or scribe allowance. Every opening will need a real clearance figure added from the unit's manual, which comes off the cupboard widths — expect these to shrink by 20–50mm per appliance once that's set.
+All figures derived from manufacturer cabinet widths. As of 30 Aug, no ventilation allowance is being added on top of these — see the decision above — so these widths (minus the run A even-split correction) are closer to final than a placeholder.
 
 ## Full material list (ordering reference)
 
@@ -229,7 +231,7 @@ Estimates for ordering purposes — confirm exact sheet count once Shelf 2 and t
 | Steel shelf brackets / bracket stock | as req. | Shelf 1 both runs + TV bays |
 | Wall fixings — board substrate | as req. | Most of both walls |
 | Wall fixings — masonry (brick pier) | as req. | TV wall, left end only |
-| Soft-close hinges, full/half overlay | TBC qty | Type settled — qty follows once cupboard bay count and door schedule are fixed |
+| Soft-close hinges, full overlay | 20 in stock | Confirmed: full overlay (not half), 35mm cup hole per hinge. Verify 20 covers the final door count once cupboard bay widths are set — order more if short |
 | Bread-bin cover mechanism | TBC qty | Do not order — hinge type confirmed, but the cover mechanism itself is still open |
 | Standard cabinet hinges / fittings | as req. | General |
 | Replacement cabinet feet | as req. | For retained 230mm base sections |
@@ -290,16 +292,16 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 
 | Component | Length | Height | Notes | Status |
 |---|---|---|---|---|
-| Run A — cupboard 1 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 2 on site | 895 to bar underside | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — vent figure + measure IKEA unit |
-| Run A — cupboard 2 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 1 on site | 895 to bar underside | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — vent figure + measure IKEA unit |
-| Run A — cooler openings | 2 × 1335 + vent | 895 vs 893 unit = 2mm | Adexa 3-door — opening only. 2mm will not roll in and out | blocked — agree target clearance |
-| Run A — corner piece | TBC | 895 | Closes the gap at the 156.7° corner — detail not yet agreed | blocked — needs decision |
-| Run B — double cupboard (IKEA unit + plinth face) | 1594 derived, ≈1600 per site sketch | 895 | First bay, 2 bays wide — before vent allowance. Existing/purchased IKEA carcass, add plinth face | hold — vent figure |
-| Run B — cupboards 2 & 3 (IKEA units + plinth face) | 2 × 797 derived | 895 | Bay 3 was an appliance position in the original layout. One single IKEA unit already received — measure its actual width once unpacked rather than using the derived figure | hold — vent figure + measure received unit |
-| Run B — COMFEE' opening | 553 + vent | 845 H × 574 D + vent | Freestanding — add vent allowance from manual | hold — vent figure |
-| Run B — Hisense FV105 opening | 560 + vent | 845 H × 575 D + vent | Freestanding — add vent allowance from manual | hold — vent figure |
+| Run A — cupboard 1 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 2 on site | 895 to bar underside | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — measure IKEA unit |
+| Run A — cupboard 2 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 1 on site | 895 to bar underside | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — measure IKEA unit |
+| Run A — cooler openings | 2 × 1335 (no vent allowance added — decision, 30 Aug) | 895 vs 893 unit = 2mm | Adexa 3-door — opening only. 2mm will not roll in and out | blocked — agree target clearance |
+| Run A — corner piece | TBC | 895 | Closes the gap at the 156.7° corner. Proposed (30 Aug): backing ply on both sides, joined at the back, with maybe three equal open shelves in the middle | hold — proposed design, confirm with Aaron |
+| Run B — double cupboard (IKEA unit + plinth face) | 1594 derived, ≈1600 per site sketch | 895 | First bay, 2 bays wide. Existing/purchased IKEA carcass, add plinth face — no vent allowance added (decision, 30 Aug) | hold — confirm width on site |
+| Run B — cupboards 2 & 3 (IKEA units + plinth face) | 2 × 797 derived | 895 | Bay 3 was an appliance position in the original layout. One single IKEA unit already received — measure its actual width once unpacked rather than using the derived figure | hold — measure received unit |
+| Run B — COMFEE' opening | 553 | 845 H × 574 D | Freestanding — no vent allowance added (decision, 30 Aug: size to cabinet width directly) | ready |
+| Run B — Hisense FV105 opening | 560 | 845 H × 575 D | Freestanding — no vent allowance added (decision, 30 Aug: size to cabinet width directly) | ready |
 | Run B — end section | — | — | Deferred by client — not in this build | deferred |
-| Cupboard doors, all bays | TBC | TBC | Soft-close full/half overlay hinges — confirmed | blocked — need carcass widths first |
+| Cupboard doors, all bays | TBC | TBC | Soft-close full overlay hinges — confirmed, 20 in stock, 35mm cup hole boring | blocked — need carcass widths first |
 
 ### Zone 5 — blender bay
 
@@ -312,7 +314,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 
 | Component | Length | Height | Notes | Status |
 |---|---|---|---|---|
-| Appliance boxing panels | TBC | TBC | Hinge confirmed soft-close full/half overlay; bread-bin mechanism still open | blocked — awaiting doors-vs-open + mechanism |
+| Appliance boxing panels | TBC | TBC | Hinge confirmed soft-close full overlay, 35mm cup hole; bread-bin mechanism still open | blocked — awaiting doors-vs-open + mechanism |
 | Cocktail section worktop wrap | TBC | TBC | Right-angle off bar end | blocked — not yet measured |
 
 ### Zone (Area 1 detail) panel breakdown
@@ -323,12 +325,12 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Z1 | Stepped feature shelf at roof kink | 1 | TBC | TBC | Cut to site angle, do not pre-cut |
 | Z1 | Shelves (2 per bay standard) | 8 | TBC | 250mm | Oversize 20mm on length for scribing. Row 1 set to 350mm clear for standard spirit bottles (derived) |
 | Z2 | Appliance run carcass sides / base | — | — | — | blocked — doors vs open not confirmed by Aaron |
-| Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | Hinge boring on hold, same as bar-face doors |
+| Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | 35mm cup-hole hinge boring, same as bar-face doors — on hold pending Zone 2 doors-vs-open confirmation |
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
 | Z3 | Glass storage dividers | 3 | TBC | 280mm | Match spacing to glassware in site photo |
 | Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it |
-| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per Aaron's attached notes, confirm this is deliberate before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
-| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both Aaron's attached notes and the Zone 4/5 site photo; exact dims not yet measured |
+| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per GraySparks' own working notes; confirm this is deliberate with Aaron before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
+| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both GraySparks' own working notes and the Zone 4/5 site photo (Aaron's); exact dims not yet measured |
 | Z5 | Blender bay — box, open to ceiling | 1 | TBC | TBC | Sloped ceiling follows roof line, no shelf at this stage — groove sides for a possible later shelf |
 | All | Long panels — general | — | +20mm | — | Standard oversize rule for on-site scribing |
 
@@ -346,20 +348,21 @@ Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCK
 - Build the roof-slope scribe template blank, ready to fit on site.
 
 ### 2. Resolve HOLD / BLOCKED items — before Build Week 1
-- Confirm Shelf 1 depth (currently 400 assumed).
-- Confirm Shelf 2 height, depth, and agree the stepped / feature design with Aaron — get a sign-off drawing.
-- Check condition of the existing 230mm base units before building over.
+- ~~Confirm Shelf 1 depth~~ — done: 400mm confirmed.
+- Transcribe Shelf 2's actual height/depth/stepped-arrangement dimensions from the design Aaron has sent — sign-off drawing already received, just needs copying into the cut list.
+- ~~Check condition of the existing 230mm base units~~ — done: sound to build over; method is to double the height and refit the original top board.
 - Confirm actual bench height off the existing benches (900–1110mm range — need a real number).
-- Agree the bench/base junction detail (returned end / step / taper).
-- Check the coolers' feet and castors — if they adjust or come off, that may solve the 2mm clearance for free. Do this before pricing any of the other three options.
+- ~~Agree the bench/base junction detail~~ — done: plinth face fitted wherever feet are visible, sized to whatever height remains, rather than one fixed returned-end/step/taper style.
+- Check the coolers' feet and castors — likely already actioned by a previous party before this job; confirm rather than assume it's still available as a free fix.
 - Agree the cooler bay clearance (target 20–25mm) and whether it comes from a local worktop raise or a bar raise. Covered faces cannot be cut until this lands.
-- Get ventilation clearance figures from all three manuals — they come off the cupboard widths.
+- ~~Get ventilation clearance figures from all three manuals~~ — decided to skip; openings are sized to cabinet/appliance widths directly.
 - Sanity-check the derived TV-wall shelf height of 1345mm with a tape.
 - Take one clean roof-slope reading with the gauge and drawing figures on the same datum — a 10° spread still sits between them.
-- Confirm the TV bracket position and depth, and the digital menu mount height.
-- Agree the corner-piece detail on run A, and set the above-bar Bay 1–5 widths against the cupboard bays below.
-- Get Aaron's decision on Zone 2 doors-vs-open and the bread-bin cover mechanism — hinge type is already settled (soft-close full/half overlay).
+- Confirm the TV bracket depth (position already set: mid-height between floor and the angled ceiling at that point).
+- Confirm the corner-piece proposal on run A with Aaron (backing ply both sides + maybe 3 equal shelves), and set the above-bar Bay 1–5 widths against the cupboard bays below.
+- Get Aaron's decision on Zone 2 doors-vs-open — his own note proposes open-worktop-by-day with a cover above, but it's not yet confirmed. Hinge type and quantity are already settled (soft-close full overlay, 20 in stock, 35mm cup hole); the bread-bin cover mechanism is still open.
 - Measure the cocktail section wraparound and appliance run dimensions.
+- Measure the two IKEA cupboard widths on run A, and the run B IKEA units (one already delivered) — see the standard-sizes working hypothesis (80cm/60cm) to check against.
 
 ### 3. Site — back bar — Build Week 1, Mon–Wed
 - Fit and scribe bar covered faces, runs A and B, and return.
@@ -386,13 +389,13 @@ The Zone 1–5 back-bar sequence folded into the full job order — geometry-dep
 **Confirm before cutting**
 1. Confirm floor-to-worktop height on site — treat the ≈950mm / 37.5in photo reading as provisional; log the real figure against the cut list before cutting any covered face.
 2. Confirm the roof-slope angle at the kink by direct measurement — reconcile the 142.3° site-gauge reading against the ≈137.7° calculated from verticals; measured verticals govern unless the re-check says otherwise.
-3. Get Aaron's decision on Zone 2 doors-vs-open and the bread-bin cover hinge type before cutting anything in that run or boring the main bar's bread-bin mechanism.
-4. Confirm Shelf 1 depth (currently assumed 400mm) and agree Shelf 2's height, depth and stepped/feature design with Aaron — get a sign-off drawing before cutting.
-5. Check the condition of the existing 230mm base units before building over them.
-6. Confirm actual bench height off the existing benches (900–1110mm range given) and agree the bench/base junction detail (returned end / step face / taper).
+3. Get Aaron's decision on Zone 2 doors-vs-open and the bread-bin cover mechanism before cutting anything in that run or boring the main bar's bread-bin mechanism. (Hinge type/quantity already settled: soft-close full overlay, 20 in stock, 35mm cup hole.)
+4. Shelf 1 depth confirmed (400mm). Shelf 2's design has been sent by Aaron — transcribe its actual height/depth/stepped-arrangement dimensions into the cut list before cutting.
+5. Existing 230mm base confirmed sound to build over — method: double the height, refit the original top board on top.
+6. Confirm actual bench height off the existing benches (900–1110mm range given). Bench/base junction detail confirmed: a plinth face fitted wherever adjustable feet are visible, sized to whatever height remains — not a single fixed returned-end/step/taper style.
 7. Resolve the front-unit turn angle (224.6° vs 224.8°) and confirm which face was gauged.
-8. Measure the TV wall independently for the top-shelf height at the roof-slope kink — do not reuse the bar's 655mm — and confirm the TV bracket position and depth.
-9. Measure the cocktail-section wraparound and appliance-run dimensions.
+8. Measure the TV wall independently for the top-shelf height at the roof-slope kink — do not reuse the bar's 655mm. TV bracket position confirmed (mid-height, floor to angled ceiling, measured at the bracket's actual location); depth still to confirm once bracket hardware is chosen.
+9. Measure the cocktail-section wraparound and appliance-run dimensions. Measure the run A and run B IKEA cupboard/unit widths individually — see the standard-sizes hypothesis (80cm/60cm) in the Elevations section.
 
 **Workshop — this week**
 
@@ -432,7 +435,7 @@ The Zone 1–5 back-bar sequence folded into the full job order — geometry-dep
 34. Final fixings, touch-ups, hardware check.
 35. Invoice the balance (£2,100) on completion; payment due within 7 days.
 
-## Questions & confirmations (28 items · 11 answered, 17 outstanding)
+## Questions & confirmations (28 items · 18 answered, 10 outstanding)
 
 Nothing marked hold or blocked in the cut list should reach the saw until its question here is answered. Answers received are recorded below as **Answered**; figures marked *derived* were calculated from an answer rather than measured, and want one sanity-check on site before cutting.
 
@@ -443,16 +446,22 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
    **Partial — Aaron's own note, not yet a decision:** his annotation on the Zone 2 site photo (see Site Reference above) reads *"not sure whether to have them hidden behind cupboards or this space open with doors above to hide the appliances after clean down."* That's a third option — open worktop for daily use, with a door/cover above that closes over the appliances once cleaned down at close — rather than a plain doors-vs-open binary. Put this back to Aaron as a specific proposal to sign off, rather than treating the question as still fully blank.
 2. **If doors: what hinge type — and what's the bread-bin cover mechanism for the main bar?**
    Affects: appliance boxing panels, main-bar bread-bin cover.
-   **Answered:** Soft-close, full/half overlay hinges. Hinges can now be ordered and packed.
-   Still open: this settles the hinge, not the bread-bin cover mechanism itself — and specifying a hinge implies doors, but Zone 2 doors-vs-open is not formally confirmed above. Confirm both before boring.
+   **Answered — final:** Soft-close, full overlay hinges — 20 already in stock, each needing a 35mm cup hole bored.
+   Still open: this settles the hinge, not the bread-bin cover mechanism itself — and specifying a hinge implies doors, but Zone 2 doors-vs-open is not formally confirmed above. Confirm both before boring. Also check 20 is enough once the final door count is known from the confirmed cupboard/appliance-run widths — order more if short.
 3. **What height, depth and stepped arrangement do you want for Shelf 2?**
    Affects: Shelf 2, both runs. Not measured, design not agreed — get a sign-off drawing before cutting.
+   **Answered — design received (30 Aug):** Aaron has sent over a design for Shelf 2. No longer something to raise on the walkthrough.
+   Still to do: transcribe the actual height/depth/stepped-arrangement dimensions from that design into the cut list — it currently still shows the old ≈330/≈300 placeholders. Cut list status stays hold, not blocked, until those numbers are copied over.
 4. **How should the bench meet the retained plinth — returned end, step face, or taper?**
    Affects: bench / base junction. Not yet decided.
+   **Answered (30 Aug):** Not one fixed junction style — the method is to fit a plinth face wherever adjustable feet are visible under a bench/base unit, sized to whatever height remains between the unit and the floor at that point. In effect a scribed, feet-covering plinth per location rather than a single chosen returned-end/step/taper detail.
 5. **Where exactly should the TV bracket sit, and how deep?**
    Affects: bay shelving either side of TV. Carpentry accommodates whatever position is agreed.
+   **Answered — position only (30 Aug):** Vertically centred — set at the midpoint of the height from the floor to the angled ceiling at that point on the wall. Since the ceiling slopes, this is a rule to apply on site (measure floor-to-ceiling at the actual bracket location, halve it), not a single fixed number.
+   Still open: bracket depth/offset from the wall — depends on the specific bracket hardware, not yet chosen.
 6. **What height should the digital menu mount at, relative to the TV?**
    Affects: TV wall elevation, bay shelf spacing. Noted as TBC with client on Rev A.
+   **Answered (30 Aug):** The digital menu *is* the TV — one screen serves both roles. That's why it can sit at the lower height typical of a menu board rather than a higher TV-viewing height; there's no second display to position relative to it. Question resolved — no separate menu-height spacing needed.
 
 ### Verify on site
 
@@ -466,10 +475,14 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
    This explains the gap — it's a datum difference, not a bad reading. Measured from vertical, 142.3° puts the slope at 52.3° off horizontal; the drawing's 137.7° internal implies 42.3° off horizontal. A 10° spread still sits between them, so this is not yet closed. Take one clean reading on site with both figures expressed off the same datum before cutting the stepped shelf. Scribe from a template regardless.
 9. **What depth should Shelf 1 be?**
    Affects: Shelf 1, both runs. Currently assumed 400mm.
+   **Answered (30 Aug):** 400mm, confirmed — for the shelf that sits out the front (the customer-facing box-structure shelf covered elsewhere in this pack). Matches the assumption already used throughout the pack, now final rather than provisional.
 10. **Is the existing 230mm base sound enough to build over?**
     Affects: front display base run. May surface remedial work quoted separately.
+    **Answered (30 Aug):** Yes, definitely sound enough. Method: double its height by building up another ~230mm on top of the existing base, then refit the original top board over that.
+    Note: doubling to ~460mm is a step within the build-up, not the final bench height by itself — Question 11's real figure (900–1110mm range) still needs confirming for however much further framing sits above this.
 11. **What's the actual bench height, taken off the existing benches?**
     Affects: bench run. Range given as 900–1110mm — need the real figure.
+    Still open — to be measured on the upcoming site visit.
 12. **What's the true front-unit turn angle — 224.6° or 224.8° — and which face was gauged?**
     Affects: angled leg bevel (22.4°).
     **Answered — method:** Gauge set on the edge of the left side of the bench, spun round to where it met the other side of the angle. So the reading is the swept angle from the left face — the "which face was gauged" ambiguity is resolved.
@@ -490,20 +503,23 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Against the confirmed 895 bar underside that's 2mm clearance. It clears on paper but is not installable or serviceable — see the clearance question below, which is now the live issue.
 17. **How do we get workable clearance over the two coolers?**
     Affects: run A cooler bays, and possibly every covered-face height — blocking. 2mm won't roll an 86kg unit in or out over a real floor. Target 20–25mm. Four options priced in the Appliance Schedule — check the coolers' feet/castors first, it may cost nothing. If the answer is raising the bar, the 895 covered faces are wrong and must not be cut yet.
+    Note (30 Aug): the builder believes the coolers' feet were already adjusted/removed before this job started, so Option 1 (drop them on their feet) may already be spent rather than a fresh avenue — verify on site before ruling the other three options in or out.
 18. **Does "three fridges" mean one 3-door cooler, or three separate cabinets?**
     Affects: the entire run A bay layout.
-    **Answered:** One 3-door cooler. Run A carries two of them — so each "three fridges" in the layout is a single Adexa cabinet, and run A is four physical units: cupboard · cooler · cupboard · cooler. The six-cabinet reading is dead.
-    Run A cupboards therefore sit at 715mm each — (4100 − 2×1335) ÷ 2. Still zero filler allowance in that figure, and still conditional on the cooler height clash being resolved.
+    **Answered — reconfirmed 30 Aug:** One 3-door cooler. Run A carries two of them — so each "three fridges" in the layout is a single Adexa cabinet, and run A is four physical units: cupboard · cooler · cupboard · cooler. The six-cabinet reading is dead.
+    Run A cupboards therefore sit at 715mm each (design starting point) — (4100 − 2×1335) ÷ 2 — though see Question 26 for why the two are expected to differ from that even split in practice.
 19. **What ventilation clearance does each unit need?**
-    Affects: every appliance opening on both runs. All four are freestanding, so there's no built-in recess spec — the allowance comes from each manual. This directly reduces the derived cupboard widths, so it's needed before any carcass is cut.
+    Affects: every appliance opening on both runs. All four are freestanding, so there's no built-in recess spec — the allowance would otherwise come from each manual.
+    **Answered — decided (30 Aug): skip it.** Openings are sized to the cabinet/appliance widths directly, no added vent margin. This resolves the "vent figure" hold on every cupboard/opening in the cut list below. It does *not* touch Question 17 — the coolers' vertical clearance problem is a different issue and remains fully open.
 20. **Does run B carry two appliances or three, and which Hisense?**
     Affects: all run B cupboard widths.
-    **Answered:** Two — COMFEE' RCU83WH2 + Hisense FV105D4BW21. All other Hisense models are out of scope; the RL170 larder fridge has been removed from the pack.
-    Run B becomes double · freezer · cupboard · freezer · cupboard — the original layout's third appliance position is now a cupboard. Cupboards 797 single / 1594 double, before vent allowance. Worth confirming with Aaron: both run B units are freezers, so there's no fridge on that run at all.
+    **Answered — reconfirmed 30 Aug:** Two — COMFEE' RCU83WH2 + Hisense FV105D4BW21. All other Hisense models are out of scope; the RL170 larder fridge has been removed from the pack.
+    Run B becomes double · freezer · cupboard · freezer · cupboard — the original layout's third appliance position is now a cupboard. Cupboards 797 single / 1594 double (design starting point). Worth confirming with Aaron: both run B units are freezers, so there's no fridge on that run at all.
 21. **What are the above-bar Bay 1–5 widths, and how do they relate to the cupboard bays below?**
     Affects: box-structure carcass sides, Zone 1–5 divisions. The Q17 (bay widths) answer covers below-worktop only. Confirm whether the upper bays line up with the cupboard divisions below or run to their own spacing.
 22. **How should the corner piece on run A close off the gap?**
     Affects: corner piece, run A. Flagged as needed but not detailed — blank panel, angled filler, or an accessible corner unit?
+    **Partial — proposed, not yet confirmed with Aaron (30 Aug):** a backing piece of ply on both sides of the corner, joined at the back, with maybe three equal open shelves in the middle. Put this to Aaron on the walkthrough rather than treating it as settled.
 23. **How much clearance does a standing spirit bottle need in Zone 1, Row 1?**
     Affects: Row 1 height, box-structure carcass.
     **Answered:** Work off standard bar liquor bottles as a general rule — no need to size to one specific bottle.
@@ -519,10 +535,10 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Right (run B, 4300): double cupboard · fridge · cupboard · fridge · cupboard · fridge → then the end section, left for now.
     Two things to note. First, this describes the carcass layout below the worktop — the above-bar Bay 1–5 widths in the elevation are a separate division and are still open. Second, bay widths can't be set by dividing 4100 ÷ 8 — the fridges are fixed-width, so measure each fridge and let the cupboards absorb the remainder. That measurement is now the blocking item for this run.
 
-### New — from the 29 Aug site sketches & attached notes
+### New — from the 29 Aug working sketches & notes
 
 26. **What are the actual widths of the two IKEA cupboard units on run A?**
-    Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and the attached notes both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
+    Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and the accompanying notes both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
     **Working hypothesis (unconfirmed):** IKEA base cabinets only come in a small fixed set of widths. The best fit inside the 1430mm available is **80cm (wider, left end) + 60cm (narrower, middle) = 1400mm**, leaving ~30mm of normal scribe/filler slack. Tape-check this on site rather than assuming it — but expect 80/60, not another even split.
 27. **What is the actual width of the run B IKEA units, now one is on site?**
     Affects: run B cupboard widths, both the double unit and the single. The single IKEA unit is marked "received" on the site sketch — measure it directly once unpacked rather than using the derived 797mm. The double unit is sketched at ≈1600mm, close to the derived 1594 — worth a tape-check but not flagged as a conflict.
@@ -550,8 +566,7 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 - [ ] Deposit received (INV-070-1, £1,400)
 - [ ] Bar underside 895mm verified at 2–3 points along each run
 - [ ] Cooler feet/castors checked — can height be gained for free?
-- [ ] Cooler bay clearance agreed with Aaron (target 20–25mm)
-- [ ] Vent clearances obtained from all three manuals
+- [ ] Cooler bay clearance agreed with Aaron (target 20–25mm) — check first whether the coolers' feet were already adjusted before this job started
 - [ ] Bar underside re-verified as 895 or 885 (Side Profile sketch conflict — see Question 28)
 - [ ] Run A IKEA cupboard widths measured individually (not assumed 715/715)
 - [ ] Run B IKEA unit widths measured (single unit received on site)
@@ -566,17 +581,14 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 - [ ] Roof-slope scribe template made
 
 **Decisions needed**
-- [ ] Shelf 2 height, depth and feature design signed off
+- [ ] Shelf 2 dimensions transcribed from Aaron's received design into the cut list
 - [ ] Bench height confirmed
-- [ ] Bench/base junction detail agreed
-- [ ] TV bracket position/depth confirmed
-- [ ] Digital menu mount height confirmed
+- [ ] TV bracket depth confirmed (position already set: mid-height, floor to angled ceiling)
 - [ ] Zone 2 doors-vs-open confirmed, and bread-bin cover mechanism chosen
-- [ ] Corner piece detail agreed (run A)
+- [ ] Corner piece detail (backing ply + maybe 3 equal shelves) confirmed with Aaron
 - [ ] Above-bar Bay 1–5 widths set against the cupboard bays below
 - [ ] TV-wall shelf height sanity-checked against the derived 1345mm
 - [ ] Cocktail section and appliance run measured
-- [ ] Condition of existing 230mm base checked
 
 **Site — Build Week 1**
 - [ ] Covered faces fitted and scribed, runs A + B + return
