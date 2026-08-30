@@ -157,7 +157,7 @@ Feature stepped shelf follows the roof-kink line — cut to site angle, do not p
 
 **Plan — base unit:** 3300 base run, 400 deep, 230 high (retained); 710 @ 224.8° turn (resolve 224.6° vs 224.8°); 1700 bench zone, raise 230 → ≈1000 (TBC).
 
-**Elevation — TV wall:** base 230 (display) · bench 1000 beyond this wall. TV ≈65–70″, centred. Bays ≈800, adjustable, no backs. Top shelf at roof-kink, height TBC (measure this wall, don't reuse the bar's 655).
+**Elevation — TV wall:** base 230 (display) · bench 1000 beyond this wall. TV **50″, confirmed by Aaron** (supersedes the ≈65–70″ placeholder), centred. Bays ≈800, adjustable, no backs. Top shelf at roof-kink, height TBC (measure this wall, don't reuse the bar's 655).
 
 **Update (30 Aug):** the digital menu and the TV are the same screen — there's no separate menu display to position, which is why it can sit lower than a typical TV-viewing height (Question 6). Bracket position: vertically centred at the midpoint of the height from the floor to the angled ceiling at that specific point on the wall (Question 5) — bracket depth still depends on the hardware chosen.
 
@@ -435,7 +435,7 @@ The Zone 1–5 back-bar sequence folded into the full job order — geometry-dep
 34. Final fixings, touch-ups, hardware check.
 35. Invoice the balance (£2,100) on completion; payment due within 7 days.
 
-## Questions & confirmations (28 items · 18 answered, 10 outstanding)
+## Questions & confirmations (30 items · 18 answered, 12 outstanding)
 
 Nothing marked hold or blocked in the cut list should reach the saw until its question here is answered. Answers received are recorded below as **Answered**; figures marked *derived* were calculated from an answer rather than measured, and want one sanity-check on site before cutting.
 
@@ -547,6 +547,13 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Affects: every covered-face height and below-worktop carcass height, i.e. potentially all of Area 1. The Side Profile sketch labels the underside as 885mm against a 920 worktop — not the 895 figure recorded as final under Question 7. This may be an earlier reading sitting on the same sketch sheet, or a genuine re-measure taken after the "final" answer was recorded. Verify 895 vs 885 at 2–3 points along the run with the datum stated explicitly before cutting the covered faces — this cannot be left as an assumption given it's the cutting dimension for the whole of Area 1.
     **Possible explanation, not yet confirmed:** IKEA's standard 80cm cabinet body on its adjustable legs (typically 60–100mm of travel) lands almost exactly in the 885–900mm range depending on how the legs are wound. The 885-vs-895 spread may simply be two different units with their legs set differently, rather than a measuring error — worth checking each unit's actual leg height before assuming the drawing is wrong.
 
+### New — from the 30 Aug follow-up message to Aaron
+
+29. **What finish does Aaron want on the door fronts?**
+    Affects: all cupboard doors, both runs, and the appliance boxing doors if Zone 2 goes with doors. Colour, material, whether it matches the house pink or something else — not specified anywhere in the pack so far. Needed before finish coats can be planned, though it doesn't block cutting the carcasses themselves.
+30. **Bottom shelf or top shelf taller, for the bigger liquor bottles — and how high is the wall at the far end of the run?**
+    Affects: Zone 1 box-storage row heights (Row 1/2/3). Question 23 already set Row 1's clearance at 350mm assuming the bottom row takes the tall bottles, but Aaron's actual preference for which row (top or bottom) gets the taller allowance was never confirmed — and the total height available depends on measuring the wall at the far end of the run, which hasn't been done. Get both before finalising the row split.
+
 ## Tools to pack — site day
 
 | Category | Pack |
@@ -589,6 +596,8 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 - [ ] Above-bar Bay 1–5 widths set against the cupboard bays below
 - [ ] TV-wall shelf height sanity-checked against the derived 1345mm
 - [ ] Cocktail section and appliance run measured
+- [ ] Door front finish confirmed with Aaron (colour/material)
+- [ ] Bottom-vs-top shelf height for bigger liquor bottles confirmed, and the wall height at the far end of the run measured
 
 **Site — Build Week 1**
 - [ ] Covered faces fitted and scribed, runs A + B + return
