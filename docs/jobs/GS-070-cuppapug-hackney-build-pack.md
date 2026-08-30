@@ -27,13 +27,41 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 
 ## Site reference — 5 photos (Aaron's annotated walkthrough)
 
-Site photos of the existing back-bar run, annotated by Aaron in yellow to mark zones, clearances and open questions. These are the primary reference for the Zone 1–5 breakdown used throughout this pack.
+Site photos of the existing back-bar run, annotated by Aaron in yellow to mark zones, clearances and open questions. These are the primary reference for the Zone 1–5 breakdown used throughout this pack. Four of the five have now been reviewed directly (below); the fifth has not yet been supplied.
+
+**Zone 4 & 5 — computer space and blenders**
+
+![Zone 4/5 — computer space, existing pine shelving, and blenders with lid-clearance note](GS-070-assets/site-photo-zone4-5-computer-blender.jpg)
+
+- Confirms the physical layout left to right: the existing pine shelving unit (bottom shelf holds the iMac, labelled "COMPUTER SPACE"; shelves above hold merch and coffee sachets) — then a wall bay with a yellow grid marked across it — then the two Buffalo-branded blenders, annotated "Enough height for Blender lids to open upwards."
+- **The gridded wall bay between the computer shelving and the blenders is the same run of open shelving the 29 Aug voice note described** (see Site Sketches Update above) — this photo now confirms its position by sight rather than by description alone. It sits directly above the existing pine unit and to the left of the blenders, matching "between the computer cupboards and the blender bay."
+- Blender clearance is annotated but not dimensioned in the photo — Question 24's decision (build open to the ceiling, no shelf yet) still stands; a hard number for the lid-swing height is still not given here.
+
+**Zone 1b — spirit run**
+
+![Zone 1b — spirit and bar-tool shelf run, roof-kink bay grid](GS-070-assets/site-photo-zone1b-spirit-run.jpg)
+
+- Shows the spirits & bar-tool shelf (Campari, Bacardi, Sailor Jerry, Malibu, jiggers, Smirnoff, Gordon's, bar towels) with a yellow grid marking roughly six bays across the run — consistent with the roof-kink box-storage sequence in Zone 1, but the grid lines are a rough guide, not a dimensioned bay split; Question 25's answer (measure fridges, let cupboards absorb the remainder) still governs the real split below worktop.
+- A large IKEA "FRAKTA" tote bag sits on the counter in this photo — worth checking with Aaron whether it's carrying one of the delivered IKEA cupboard units referenced in the Site Sketches Update, or just general shopping.
+
+**Zone 3 — glass storage**
+
+![Zone 3 — glass storage above the drinks fridges](GS-070-assets/site-photo-zone3-glass-storage.jpg)
+
+- Visually confirms the existing text: open shelving above three under-counter drinks fridges, labelled "GLASS STORAGE." No new dimensions or changes — matches the pack as written.
+
+**Zone 2 — appliance run**
+
+![Zone 2 — cooking appliances, with Aaron's own doors-vs-open note](GS-070-assets/site-photo-zone2-appliance-run.jpg)
+
+- Confirms the physical appliances: a toastie machine, an air fryer, a boxed roll of cling film, another hot appliance, a toaster, and a Bluetooth speaker — sitting above the COMFEE' and Hisense freezers already logged in the Appliance Schedule (both units visible and labelled in this photo). The worktop's right-angle turn into the cocktail-section wraparound is also visible here.
+- **Aaron's own annotation on this photo answers part of Question 1 with a proposed direction, not yet a final decision:** *"Cooking Appliances - not sure whether to have them hidden behind cupboards or this space open with doors above to hide the appliances after clean down."* That's a third option beyond a straight doors-vs-open choice — leave the appliances on open worktop for daily use, with a separate door or cover above that closes over the space once they're cleaned down at close. Worth putting back to Aaron as a concrete proposal to confirm, rather than leaving Question 1 as a blank open/closed choice.
 
 - **Zone 1a · Box storage** — Merch + dog-portrait end of the roof-kink run. Needs height for standing spirit bottles as well as merch.
 - **Zone 1b · Spirit run** — Same box-structure run continuing over the spirits & bar-tool shelf; build as one sequence with Zone 1a.
-- **Zone 2 · Appliance run** — Toastie machine, air fryer, toaster, microwave, speaker. Doors vs. open shelving — still unconfirmed.
+- **Zone 2 · Appliance run** — Toastie machine, air fryer, toaster, microwave, speaker. Doors vs. open shelving — still unconfirmed; see Aaron's own note above for a proposed compromise.
 - **Zone 3 · Glass storage** — Open shelving above the drinks fridges — confirmed, sized to tumblers, jars and flute glasses below.
-- **Zone 4 & 5 · Computer + blender** — Existing pine cubby (build around it) and two blenders with lids that need clearance to open upward; no shelf above.
+- **Zone 4 & 5 · Computer + blender** — Existing pine cubby (build around it) and two blenders with lids that need clearance to open upward; no shelf above. The open-shelf run between them is now photo-confirmed — see above.
 
 ## Site sketches update — 29 Aug 2026 (voice note + hand sketches)
 
@@ -291,7 +319,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Z3 | Glass storage dividers | 3 | TBC | 280mm | Match spacing to glassware in site photo |
 | Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it |
 | Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per voice note, confirm this is deliberate before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
-| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay, per voice note. Position and exact dims not yet measured |
+| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both the voice note and the Zone 4/5 site photo; exact dims not yet measured |
 | Z5 | Blender bay — box, open to ceiling | 1 | TBC | TBC | Sloped ceiling follows roof line, no shelf at this stage — groove sides for a possible later shelf |
 | All | Long panels — general | — | +20mm | — | Standard oversize rule for on-site scribing |
 
@@ -403,6 +431,7 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 
 1. **Doors, or open shelving with concealment above, for the Zone 2 appliance run?**
    Affects: carcass depth, hinge boring, door-blank count. The single biggest open decision on the job — same hold status as the bread-bin cover mechanism on the main bar.
+   **Partial — Aaron's own note, not yet a decision:** his annotation on the Zone 2 site photo (see Site Reference above) reads *"not sure whether to have them hidden behind cupboards or this space open with doors above to hide the appliances after clean down."* That's a third option — open worktop for daily use, with a door/cover above that closes over the appliances once cleaned down at close — rather than a plain doors-vs-open binary. Put this back to Aaron as a specific proposal to sign off, rather than treating the question as still fully blank.
 2. **If doors: what hinge type — and what's the bread-bin cover mechanism for the main bar?**
    Affects: appliance boxing panels, main-bar bread-bin cover.
    **Answered:** Soft-close, full/half overlay hinges. Hinges can now be ordered and packed.
