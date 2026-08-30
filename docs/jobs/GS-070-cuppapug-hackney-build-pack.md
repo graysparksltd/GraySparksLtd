@@ -102,6 +102,21 @@ Three hand-drawn working sketches (GraySparks' own, not Aaron's) and the notes a
 
 **CuppaPug Site Sheet (printable Q&A summary)** — a one-page print version of the Questions & Confirmations list below was also supplied as a PDF; its content matches this pack and isn't reproduced separately here.
 
+## Aaron's WhatsApp measurements — 30 Aug 2026
+
+Five photos sent by Aaron in response to the follow-up message (Questions 26, 27, 30). Reproduced here for reference; readings quoted below are estimates, not confirmed cutting dimensions — see the Questions themselves for what's still open.
+
+![First cupboard width, tape measure across the left-hand run A cupboard](GS-070-assets/whatsapp-first-cupboard-width.jpg)
+![Second cupboard width, tape measure across the other run A cupboard](GS-070-assets/whatsapp-second-cupboard-width.jpg)
+![Third cabinet is one long cabinet — run B "double" unit confirmed as a single cabinet](GS-070-assets/whatsapp-third-cabinet-one-long.jpg)
+![Wall of bar height for the alcohol shelving, vertical tape measurement](GS-070-assets/whatsapp-wall-height-alcohol-shelf.jpg)
+![Annotated shelf layout — Bottles, Glasses, Glasses, Cocktail apparatus, top to bottom](GS-070-assets/whatsapp-shelf-layout-annotated.jpg)
+
+- "First cupboard width" and "Second" — the two Run A cupboard widths (Question 26). Both read close to the 60cm mark, closer in size to each other than the 80/60cm working hypothesis assumed — needs a precise confirmed number before cutting either plinth face.
+- "Third cabinet is one long cabinet" — confirms the Run B "double" unit is genuinely one cabinet, not two 80cm units side by side (Question 27). Retires that hypothesis. Exact width still needed.
+- "Wall of Bar height for alcohol shelve" — a vertical tape reading for the far-end wall height (Question 30), but the frame shown only covers a mid-section of the tape, not a clear total.
+- Annotated layout photo — settles the shelf order top to bottom as Bottles → Glasses → Glasses → Cocktail apparatus (Question 30), reversing the original assumption that the bottle row was at the bottom.
+
 ## Elevations & survey drawings (redrawn from Rev B & Rev A)
 
 Schematic, not to scale — measured verticals govern over calculated angles. Solid black lines are confirmed dimensions; dashed pink lines are still TBC and must be locked on site before cutting.
@@ -150,9 +165,10 @@ Bring a tape (and the hex key for the cabinet legs) to check this against the re
 
 Feature stepped shelf follows the roof-kink line — cut to site angle, do not pre-cut.
 
-- Row 1 (bottom) — spirit clearance, height TBC, stand a bottle on site.
-- Row 2 — height TBC.
-- Row 3 (top) — height TBC.
+- Row 3 (top) — bottles, 350mm clear (derived) — corrected 30 Aug, was assumed bottom.
+- Row 2 (middle) — glasses, height TBC.
+- Row 1 (bottom) — glasses, height TBC.
+- Below the bays, at counter level — cocktail apparatus (not a shelf).
 - Bay 1 width — TBC (part of the 4100mm leg, confirm split with Bay 2).
 
 **Two separate box units, not one (30 Aug).** Zone 1a (merch/dog-portrait end) and Zone 1b (the six-bay spirit run) are two distinct box-structure units built as one sequence, not a single continuous carcass. Zone 1a's height can be inferred from the roof-slope profile that's already established across the rest of the bar — working estimate **≈2–2.5m at that end**, to be confirmed on site once the roof-slope angle itself is settled (Question 8). Treat this as a planning figure, not a cutting dimension.
@@ -329,7 +345,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 |---|---|---|---|---|---|
 | Z1 | Dividers, box structure (roof-kink run) | 4 | per bay | 400mm (standardised, was per-bay) | Batch-cut as long 400mm-wide lengths across both Zone 1a &amp; 1b units, then divide to each bay's size — one saw setup, not per-bay. Hold — height depends on floor-to-worktop confirm |
 | Z1 | Stepped feature shelf at roof kink | 1 | TBC | TBC | Cut to site angle, do not pre-cut — template only |
-| Z1 | Shelves (2 per bay standard) | 8 | TBC | 400mm (standardised, was 250mm) | Oversize on length for scribing, cut from the same 400mm batch as the dividers. Row 1 set to 350mm clear for standard spirit bottles (derived) |
+| Z1 | Shelves (2 per bay standard) | 8 | TBC | 400mm (standardised, was 250mm) | Oversize on length for scribing, cut from the same 400mm batch as the dividers. Top row set to 350mm clear for bottles (derived) — corrected 30 Aug, bottles are top not bottom |
 | Z2 | Appliance run carcass sides / base | — | — | — | blocked — doors vs open not confirmed by Aaron |
 | Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | 35mm cup-hole hinge boring at the same uniform offset as the bar-face doors — on hold pending Zone 2 doors-vs-open confirmation |
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
@@ -529,7 +545,8 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 23. **How much clearance does a standing spirit bottle need in Zone 1, Row 1?**
     Affects: Row 1 height, box-structure carcass.
     **Answered:** Work off standard bar liquor bottles as a general rule — no need to size to one specific bottle.
-    Derived: standard 700ml/750ml spirit bottles run 300–330mm tall, so Row 1 gets 350mm clear internal height (derived). That covers the common range with a lift-in/lift-out margin. Taller outliers (some gin and tequila bottles reach ~360mm) will not stand in Row 1 — worth a nod to Aaron if any are stocked.
+    Derived: standard 700ml/750ml spirit bottles run 300–330mm tall, so the bottle row gets 350mm clear internal height (derived). That covers the common range with a lift-in/lift-out margin. Taller outliers (some gin and tequila bottles reach ~360mm) will not stand in that row — worth a nod to Aaron if any are stocked.
+    **Correction, 30 Aug — the bottle row is the TOP row, not the bottom.** This question originally assumed "Row 1 (bottom)" held the bottles. Aaron's own annotated photo (see Question 30) gives the order top to bottom as Bottles → Glasses → Glasses → Cocktail apparatus (at the counter). The 350mm clearance figure itself still stands — it's just the top shelf that needs it, not the bottom one. Update "Row 1" references in the Zone 1 elevation and cut list to mean the top row.
 24. **What's the minimum clearance needed above the blenders with lids fully open?**
     Affects: whether a shelf line exists at all in Zone 5.
     **Answered — approach changed:** Build Zone 5 open to the ceiling for now — a box with a sloped ceiling following the roof line, no shelf. Once it's open and the real lid-swing clearance is visible, a shelf can be added above both blenders if the space allows.
@@ -545,10 +562,12 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 
 26. **What are the actual widths of the two IKEA cupboard units on run A?**
     Affects: run A cupboard 1 & 2, plinth face sizing. The site sketch and the accompanying notes both note the two are *not* equal width (left-end unit reads wider, the unit between the two coolers reads narrower) — this supersedes the derived even 715/715 split. Measure both directly; don't cut plinth faces off the derived figure.
-    **Working hypothesis (unconfirmed):** IKEA base cabinets only come in a small fixed set of widths. The best fit inside the 1430mm available is **80cm (wider, left end) + 60cm (narrower, middle) = 1400mm**, leaving ~30mm of normal scribe/filler slack. Tape-check this on site rather than assuming it — but expect 80/60, not another even split.
+    ~~Working hypothesis (unconfirmed): 80cm (wider) + 60cm (narrower) = 1400mm.~~ **Photos received 30 Aug, hypothesis looks wrong.** Aaron sent tape-measure photos captioned "First cupboard width" and "Second." Both read closer to the 60cm mark to me — i.e. much closer in size to each other than the 80/60 split assumed, not the "one clearly wider" reading the sketch implied. I don't trust my read of a tape-measure photo to the mm for something about to be cut, so this needs the actual numbers confirmed rather than either hypothesis.
 27. **What is the actual width of the run B IKEA units, now one is on site?**
     Affects: run B cupboard widths, both the double unit and the single. The single IKEA unit is marked "received" on the site sketch — measure it directly once unpacked rather than using the derived 797mm. The double unit is sketched at ≈1600mm, close to the derived 1594 — worth a tape-check but not flagged as a conflict.
-    **Working hypothesis (unconfirmed):** the derived 797mm single is almost certainly a real **80cm (800mm)** IKEA cabinet, and the ≈1600mm "double" is most likely two 80cm cabinets side by side. Confirm on site, but 80cm is the expected answer for all of run B's units.
+    ~~Working hypothesis (unconfirmed): the derived 797mm single is almost certainly a real 80cm (800mm) IKEA cabinet, and the ≈1600mm "double" is most likely two 80cm cabinets side by side.~~ **Wrong — corrected 30 Aug.**
+    **Answered — partially:** Aaron measured the "double" unit and confirmed by photo caption: *"Third cabinet is one long cabinet"* — it's genuinely **one single cabinet**, not two 80cm units side by side. The two-cabinet hypothesis is retired.
+    **Still needed:** the actual width. The photo's tape reading looks to be roughly in the 85–95cm range to me, but I don't have the confidence to call an exact mm figure off a tape-measure photo for something that's about to be cut — get the precise number confirmed before sizing this cupboard.
 28. **Reconcile — bar underside 885 or 895?**
     Affects: every covered-face height and below-worktop carcass height, i.e. potentially all of Area 1. The Side Profile sketch labels the underside as 885mm against a 920 worktop — not the 895 figure recorded as final under Question 7. This may be an earlier reading sitting on the same sketch sheet, or a genuine re-measure taken after the "final" answer was recorded. Verify 895 vs 885 at 2–3 points along the run with the datum stated explicitly before cutting the covered faces — this cannot be left as an assumption given it's the cutting dimension for the whole of Area 1.
     **Possible explanation, not yet confirmed:** IKEA's standard 80cm cabinet body on its adjustable legs (typically 60–100mm of travel) lands almost exactly in the 885–900mm range depending on how the legs are wound. The 885-vs-895 spread may simply be two different units with their legs set differently, rather than a measuring error — worth checking each unit's actual leg height before assuming the drawing is wrong.
@@ -559,6 +578,8 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Affects: all cupboard doors, both runs, and the appliance boxing doors if Zone 2 goes with doors. Colour, material, whether it matches the house pink or something else — not specified anywhere in the pack so far. Needed before finish coats can be planned, though it doesn't block cutting the carcasses themselves.
 30. **Bottom shelf or top shelf taller, for the bigger liquor bottles — and how high is the wall at the far end of the run?**
     Affects: Zone 1 box-storage row heights (Row 1/2/3). Question 23 already set Row 1's clearance at 350mm assuming the bottom row takes the tall bottles, but Aaron's actual preference for which row (top or bottom) gets the taller allowance was never confirmed — and the total height available depends on measuring the wall at the far end of the run, which hasn't been done. Get both before finalising the row split.
+    **Answered — shelf order (30 Aug):** Aaron sent an annotated photo of the wall marking the order top to bottom: **Bottles → Glasses → Glasses → Cocktail apparatus** (the last one sitting at counter level, not a shelf). So the 350mm bottle allowance from Question 23 goes on the **top** row, reversing the original bottom-row assumption.
+    **Still open — the actual wall height.** Aaron also sent a vertical tape-measure photo captioned "Wall of Bar height for alcohol shelve," but the frame only shows a mid-section of the tape (numbers in the 53–61 range), not a clear floor-to-ceiling total. Get the actual total height figure before finalising the four-zone split.
 
 ## Tools to pack — site day
 
