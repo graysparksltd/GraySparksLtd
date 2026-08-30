@@ -343,8 +343,8 @@ Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCK
 ### 1. Workshop — this week
 - Order sheet goods, timber, brackets, fixings, finish and consumables (excl. bread-bin hinges) for Monday/Tuesday delivery.
 - Break down sheet stock into oversize blanks.
-- Cut all READY items from the cut list to final size.
-- Cut and dry-fit the bar corner mitre pair (11.65° bevel).
+- Cut all READY items from the cut list to final size (return panel, backing battens, Shelf 1 both runs — no continuous run A/B face panel to cut).
+- The corner mitre waits on the Run A corner piece design (Question 22) — don't cut it yet.
 - Machine and lip all shelf stock edges — leave final length uncut where HOLD/BLOCKED.
 - First seal coat on all cut, READY components (leave scribe edges bare).
 - Build the roof-slope scribe template blank, ready to fit on site.
