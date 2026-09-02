@@ -17,11 +17,11 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 | Build windows | 2× Mon–Wed closed days |
 | Working method | Fabricated & finish-coated in workshop; site days for fit only |
 
-**Read this first.** Worktop height, the gauge methodology, TV-wall shelf height, spirit-bottle clearance, hinge type and quantity, the blender-bay approach, the cupboard layout, the full appliance roster, the ventilation-allowance decision, Shelf 2's design (received, not yet transcribed), the bench/base junction method, TV bracket position and the digital-menu question are all settled as of 30 Aug. Bench height, Zone 2 doors-vs-open, and the two IKEA-cupboard-width questions remain open — see the walkthrough plan below. The underside conflict is now resolved at 885mm (see Key datum), which reopens the cooler clearance problem as a hard blocker, not just a tight fit. The cut list flags every component ready/hold/blocked individually — see the Questions list before releasing anything to the saw.
+**Read this first.** Worktop height, the gauge methodology, TV-wall shelf height, spirit-bottle clearance, hinge type and quantity, the blender-bay approach, the cupboard layout, the full appliance roster, the ventilation-allowance decision, Shelf 2's design (received, not yet transcribed), the bench/base junction method, TV bracket position and the digital-menu question are all settled as of 30 Aug. Bench height, Zone 2 doors-vs-open, and the two IKEA-cupboard-width questions remain open — see the walkthrough plan below. The underside is now confirmed at 885mm (see Key datum), and the cooler clearance problem that raised is also resolved — feet removed, both coolers fitted in place. The cut list flags every component ready/hold/blocked individually — see the Questions list before releasing anything to the saw.
 
 **Key datum, confirmed on site 30 Aug:** worktop 920 finished, underside of bar **885mm** (a 35mm top). This is the fourth figure given for the underside (885 -> 880 -> 895 -> 885) but the first taken as a direct site measurement rather than a sketch or gauge reading, so it now supersedes the “895 final” recorded on 29 Aug. All covered faces and below-worktop carcasses are cut to 885.
 
-**Open risk, now critical — the coolers do not physically fit.** Confirmed underside is 885mm; the Adexa coolers measure 893mm. That's -8mm — not a tight clearance, an actual 8mm shortfall. These are 86kg freestanding units on castors; at 885mm they cannot be rolled into the bay at all, let alone serviced. This blocks run A's below-worktop carcasses and cooler openings entirely until one of the four remedies in the Appliance Schedule is chosen — it is no longer safe to proceed on the assumption a workaround will be found on the day.
+**Resolved, 30 Aug — coolers are fitted, feet removed, clearance achieved.** The -8mm shortfall (885mm underside vs 893mm coolers) looked like a hard block on paper, but Option 1 from the Appliance Schedule's four remedies turned out to be the answer: the coolers' feet/legs have been removed where needed and both units are already in place with enough clearance in practice. No local raise, whole-bar raise, or cooler swap needed. Run A's below-worktop carcasses can now be built around the coolers as fitted.
 
 **Resolved, 30 Aug — the underside is 885mm, confirmed on site.** The Side Profile sketch's 885mm reading (flagged 29 Aug as unreconciled against the “895 final”) turned out to be the correct one. Question 28 is now closed. See the Key datum and Open risk notes above for what this changes.
 
@@ -189,7 +189,7 @@ External dimensions from manufacturer spec, not site-measured. Every opening bel
 
 | Model | Type | W | D | H | Opening required | Clearance under 885 (confirmed 30 Aug) |
 |---|---|---|---|---|---|---|
-| Adexa BC03PP ×2 — 312L back-bar cooler, 3 hinged glass doors, 86kg, run A | Cooler, +2 to +8°C | 1335 | 510 | 893 measured / 895 spec | Vent clearance TBC — commercial unit | **-8mm — does not fit** |
+| Adexa BC03PP ×2 — 312L back-bar cooler, 3 hinged glass doors, 86kg, run A | Cooler, +2 to +8°C | 1335 | 510 | 893 measured / 895 spec | Vent clearance TBC — commercial unit | Resolved — fitted with feet removed (30 Aug) |
 | Hisense FV105D4BW21 — 85L, run B | Freezer | 560 | 575 | 845 | Vent clearance — see manual | 40mm — workable |
 | COMFEE' RCU83WH2(E) — 88L, run B | Freezer | 553 | 574 | 845 | Vent clearance — see manual | 40mm — workable |
 
@@ -199,22 +199,15 @@ External dimensions from manufacturer spec, not site-measured. Every opening bel
 
 These are all freestanding units, so there is no manufacturer built-in recess spec at all. **Decision (30 Aug): skip the ventilation/handling allowance.** Openings are cut to the cabinet widths directly (553mm COMFEE', 560mm Hisense, and the run A cupboard widths once measured) rather than adding a manual-derived clearance margin. This is the builder's explicit call for this job — it trades some rear-clearance/servicing margin for simplicity — and is separate from the cooler height-clearance problem below, which is unaffected and still critical.
 
-### The cooler bays need a real clearance decision — confirmed 885 makes this worse, not better
+### The cooler bays — resolved by removing the feet
 
-Bar underside confirmed 885, cooler 893. **The cooler does not fit — it's 8mm too tall, not 2mm too tight.** This was already a problem at the old "895 final" figure; at the now-confirmed 885 it's a hard block, not a servicing inconvenience:
-
-- **It has to go in.** 86kg on castors, rolled into a 1335mm opening 8mm shorter than the unit. It will not go in at all, dip in the floor or not.
-- **Floors aren't flat.** Even if 885 were somehow stretched to 893 exactly, a normal floor dip would still jam it. There is no scenario where 885 and 893 coexist without a fix.
-- **Servicing.** Irrelevant until installation itself is solved.
-- **The worktop isn't a datum.** 885 is now a direct site measurement, not a design intent — more reliable than the old 895, but it still isn't guaranteed dead straight over 4100mm.
-
-**Recommendation, now more urgent:** target 20–25mm clear above the cooler — a 913–918mm opening. From a confirmed 885mm baseline that's a 28–33mm raise needed, bigger than the 20–25mm raise this recommendation originally called for from 895. That needs a local worktop raise over the two cooler bays, a whole-bar raise, or a cooler swap (Option 4 below) — this cannot be left for site-day improvisation.
+Bar underside 885, cooler spec 893 — an -8mm shortfall on paper. In practice, Option 1 below (drop the coolers on their feet) closed the gap: legs/castors removed where needed, both coolers fitted and in place with workable clearance. The original concerns (rolling in and out for cleaning, floor undulations trapping the unit) are moot once the unit is already seated with real clearance rather than a theoretical 2mm or worse. Nothing further needed here — the carpentry around the coolers can proceed treating their fitted position as fixed.
 
 ### Cooler bay — the four ways out, cheapest first
 
 | Option | What it costs | Knock-on |
 |---|---|---|
-| 1. Drop the coolers on their feet (check castors/adjustable feet first) | Nothing, if they have adjustable feet or removable castors | Possibly already done — the builder believes the castors/feet were already sorted before this job started, which would mean the measured 893mm already reflects the lowest achievable height and this option is exhausted, not fresh. Verify on site rather than assume it's untried. |
+| 1. Drop the coolers on their feet (check castors/adjustable feet first) | Nothing, if they have adjustable feet or removable castors | **This is the one used, confirmed 30 Aug.** Feet/legs removed where needed; both coolers fitted and in place with workable clearance. No further action on this bay. |
 | 2. Local worktop raise over the two cooler bays only | Joinery time; a stepped worktop line | Visible step in the bar top — needs Aaron's sign-off on the look |
 | 3. Raise the whole bar to 915–920 underside | Covered faces recut; everything worktop-referenced shifts | Shelf 1 at 655 above worktop moves with it; front bench relationship changes |
 | 4. Swap to BC03PP85, 850mm, same 1335×510 footprint | Two new coolers — client purchase | 45mm clear, no joinery change at all. Loses 12L per unit. |
@@ -316,7 +309,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 |---|---|---|---|---|
 | Run A — cupboard 1 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 2 on site | 885 to bar underside (confirmed 30 Aug) | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — measure IKEA unit |
 | Run A — cupboard 2 (IKEA unit + plinth face) | 715 derived, not equal to cupboard 1 on site | 885 to bar underside (confirmed 30 Aug) | (4100 − 2×1335) ÷ 2 — existing/purchased IKEA carcass, add plinth face to cover legs. Measure actual width, don't assume even split | hold — measure IKEA unit |
-| Run A — cooler openings | 2 × 1335 (no vent allowance added — decision, 30 Aug) | 885 vs 893 unit = -8mm | Adexa 3-door — opening only. Does not fit, not just tight — see Appliance Schedule | blocked — agree target clearance, urgently |
+| Run A — cooler openings | 2 × 1335 (no vent allowance added — decision, 30 Aug) | as fitted (feet removed, 30 Aug) | Adexa 3-door — both units already in place with workable clearance. Build carcass around coolers as fitted, don't assume the 885/893 paper figures | ready |
 | Run A — corner piece | TBC | 885 (confirmed 30 Aug) | Closes the gap at the 156.7° corner. Proposed (30 Aug): backing ply on both sides, joined at the back, with maybe three equal open shelves in the middle | hold — proposed design, confirm with Aaron |
 | Run B — double cupboard (IKEA unit + plinth face) | 1594 derived, ≈1600 per site sketch | 885 (confirmed 30 Aug) | First bay, 2 bays wide. Existing/purchased IKEA carcass, add plinth face — no vent allowance added (decision, 30 Aug) | hold — confirm width on site |
 | Run B — cupboards 2 & 3 (IKEA units + plinth face) | 2 × 797 derived | 885 (confirmed 30 Aug) | Bay 3 was an appliance position in the original layout. One single IKEA unit already received — measure its actual width once unpacked rather than using the derived figure | hold — measure received unit |
@@ -375,8 +368,8 @@ Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCK
 - ~~Check condition of the existing 230mm base units~~ — done: sound to build over; method is to double the height and refit the original top board.
 - Confirm actual bench height off the existing benches (900–1110mm range — need a real number).
 - ~~Agree the bench/base junction detail~~ — done: plinth face fitted wherever feet are visible, sized to whatever height remains, rather than one fixed returned-end/step/taper style.
-- Check the coolers' feet and castors — likely already actioned by a previous party before this job; confirm rather than assume it's still available as a free fix.
-- Agree the cooler bay clearance (target 20–25mm) and whether it comes from a local worktop raise or a bar raise. Covered faces cannot be cut until this lands.
+- ~~Check the coolers' feet and castors~~ — done: feet/legs removed where needed, both coolers fitted in place with workable clearance.
+- ~~Agree the cooler bay clearance~~ — resolved by the feet removal above; no worktop or bar raise needed.
 - ~~Get ventilation clearance figures from all three manuals~~ — decided to skip; openings are sized to cabinet/appliance widths directly.
 - Sanity-check the derived TV-wall shelf height of 1345mm with a tape.
 - Take one clean roof-slope reading with the gauge and drawing figures on the same datum — a 10° spread still sits between them.
@@ -457,7 +450,7 @@ The Zone 1–5 back-bar sequence folded into the full job order — geometry-dep
 34. Final fixings, touch-ups, hardware check.
 35. Invoice the balance (£2,100) on completion; payment due within 7 days.
 
-## Questions & confirmations (30 items · 18 answered, 12 outstanding)
+## Questions & confirmations (30 items · 19 answered, 11 outstanding)
 
 Nothing marked hold or blocked in the cut list should reach the saw until its question here is answered. Answers received are recorded below as **Answered**; figures marked *derived* were calculated from an answer rather than measured, and want one sanity-check on site before cutting.
 
@@ -490,7 +483,7 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 7. **What's the actual floor-to-worktop height?**
    Affects: all covered-face heights.
    **Answered — superseded 30 Aug, see Question 28:** 920mm to the finished worktop top; **885mm** to the underside of the bar, confirmed by direct site measurement (not a sketch or gauge reading). A 35mm top.
-   This is the fourth figure given for the underside (885 → 880 → 895 → 885) and this time it's a real measurement, not a derived or sketched one — recorded as genuinely final. All covered faces and below-worktop carcasses are now cut to 885. One caveat still stands: the cooler clearance problem (Question 17) may force a local or whole-bar raise, which would move this figure again for run A specifically — don't cut those faces until that's settled.
+   This is the fourth figure given for the underside (885 → 880 → 895 → 885) and this time it's a real measurement, not a derived or sketched one — recorded as genuinely final. All covered faces and below-worktop carcasses are now cut to 885. The cooler clearance problem this raised (Question 17) is also resolved — feet removed, no raise needed — so 885 stands without qualification.
 8. **What's the true roof-slope angle at the kink — 142.3° (gauge) or ≈137.7° (calculated)?**
    Affects: stepped feature shelf, Zone 1 carcass sides.
    **Answered — method:** The 142.3° was gauged from upright, swept into where the roof slopes. So it's referenced to vertical, not to the wall face the 137.7° was calculated against.
@@ -525,14 +518,14 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     Against the confirmed 885mm bar underside that's **-8mm** — it does not fit at all, not a tight clearance. See the clearance question below, which is now urgent, not just unresolved.
 17. **How do we get workable clearance over the two coolers?**
     Affects: run A cooler bays, and possibly every covered-face height — blocking, and now urgent. At the confirmed 885mm underside the cooler is 8mm too tall, not just too tight — it cannot be installed at all as things stand. Target 20–25mm clear, meaning 913–918mm underside, a 28–33mm raise from the confirmed 885. Four options priced in the Appliance Schedule — check the coolers' feet/castors first, it may cost nothing. If the answer is raising the bar, the 885 covered faces are wrong for run A and must not be cut yet.
-    Note (30 Aug): the builder believes the coolers' feet were already adjusted/removed before this job started, so Option 1 (drop them on their feet) may already be spent rather than a fresh avenue — verify on site before ruling the other three options in or out.
+    **Answered — resolved, 30 Aug:** Option 1 was the answer. Feet/legs removed where needed; both coolers are fitted and in place with workable clearance. No worktop raise, bar raise, or cooler swap needed — build the carcasses around the coolers as fitted.
 18. **Does "three fridges" mean one 3-door cooler, or three separate cabinets?**
     Affects: the entire run A bay layout.
     **Answered — reconfirmed 30 Aug:** One 3-door cooler. Run A carries two of them — so each "three fridges" in the layout is a single Adexa cabinet, and run A is four physical units: cupboard · cooler · cupboard · cooler. The six-cabinet reading is dead.
     Run A cupboards therefore sit at 715mm each (design starting point) — (4100 − 2×1335) ÷ 2 — though see Question 26 for why the two are expected to differ from that even split in practice.
 19. **What ventilation clearance does each unit need?**
     Affects: every appliance opening on both runs. All four are freestanding, so there's no built-in recess spec — the allowance would otherwise come from each manual.
-    **Answered — decided (30 Aug): skip it.** Openings are sized to the cabinet/appliance widths directly, no added vent margin. This resolves the "vent figure" hold on every cupboard/opening in the cut list below. It does *not* touch Question 17 — the coolers' vertical clearance problem is a different issue and remains fully open.
+    **Answered — decided (30 Aug): skip it.** Openings are sized to the cabinet/appliance widths directly, no added vent margin. This resolves the "vent figure" hold on every cupboard/opening in the cut list below. It did not touch Question 17 — the coolers' vertical clearance problem was a separate issue, since resolved on its own (feet removed).
 20. **Does run B carry two appliances or three, and which Hisense?**
     Affects: all run B cupboard widths.
     **Answered — reconfirmed 30 Aug:** Two — COMFEE' RCU83WH2 + Hisense FV105D4BW21. All other Hisense models are out of scope; the RL170 larder fridge has been removed from the pack.
@@ -570,7 +563,7 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
     **Still needed:** the actual width. The photo's tape reading looks to be roughly in the 85–95cm range to me, but I don't have the confidence to call an exact mm figure off a tape-measure photo for something that's about to be cut — get the precise number confirmed before sizing this cupboard.
 28. **Reconcile — bar underside 885 or 895?**
     Affects: every covered-face height and below-worktop carcass height, i.e. potentially all of Area 1. The Side Profile sketch labels the underside as 885mm against a 920 worktop — not the 895 figure recorded as final under Question 7. This may be an earlier reading sitting on the same sketch sheet, or a genuine re-measure taken after the "final" answer was recorded. Verify 895 vs 885 at 2–3 points along the run with the datum stated explicitly before cutting the covered faces — this cannot be left as an assumption given it's the cutting dimension for the whole of Area 1.
-    **Answered — final, 30 Aug:** 885mm, confirmed by direct site measurement. The Side Profile sketch had it right. This closes the question, but reopens Question 17 as urgent — see there for what it now means for the coolers.
+    **Answered — final, 30 Aug:** 885mm, confirmed by direct site measurement. The Side Profile sketch had it right. This initially reopened Question 17 as urgent (the coolers appeared 8mm too tall) — since resolved by removing the coolers' feet, see there.
 
 ### New — from the 30 Aug follow-up message to Aaron
 
@@ -599,8 +592,8 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 **Before ordering**
 - [ ] Deposit received (INV-070-1, £1,400)
 - [x] Bar underside verified — confirmed 885mm (not 895), 30 Aug
-- [ ] Cooler feet/castors checked — can height be gained for free?
-- [ ] Cooler bay clearance agreed with Aaron (target 20–25mm) — check first whether the coolers' feet were already adjusted before this job started
+- [x] Cooler feet/castors checked — yes, height gained for free by removing them
+- [x] Cooler bay clearance resolved — coolers fitted in place, feet removed, no raise needed
 - [x] Question 28 resolved — 885mm confirmed by direct site measurement
 - [ ] Run A IKEA cupboard widths measured individually (not assumed 715/715)
 - [ ] Run B IKEA unit widths measured (single unit received on site)
