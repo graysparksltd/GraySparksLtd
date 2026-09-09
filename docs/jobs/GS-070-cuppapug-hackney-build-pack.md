@@ -338,7 +338,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 |---|---|---|---|---|---|
 | Z1 | Dividers, box structure (roof-kink run) | 4 | per bay | 400mm (standardised, was per-bay) | Batch-cut as long 400mm-wide lengths across both Zone 1a &amp; 1b units, then divide to each bay's size — one saw setup, not per-bay. Hold — height depends on floor-to-worktop confirm |
 | Z1 | Stepped feature shelf at roof kink | 1 | TBC | TBC | Cut to site angle, do not pre-cut — template only |
-| Z1 | Shelves (2 per bay standard) | 8 | TBC | 400mm (standardised, was 250mm) | Oversize on length for scribing, cut from the same 400mm batch as the dividers. Top row set to 350mm clear for bottles (derived) — corrected 30 Aug, bottles are top not bottom |
+| Z1 | Shelves (2 per bay standard) | 8 | TBC | 400mm (standardised, was 250mm) | Oversize on length for scribing, cut from the same 400mm batch as the dividers. Top row set to 350mm clear for bottles (derived) — corrected 30 Aug, bottles are top not bottom. **See anti-sag detail below — don't fit as a bare housed shelf.** |
 | Z2 | Appliance run carcass sides / base | — | — | — | blocked — doors vs open not confirmed by Aaron |
 | Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | 35mm cup-hole hinge boring at the same uniform offset as the bar-face doors — on hold pending Zone 2 doors-vs-open confirmation |
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
@@ -349,6 +349,18 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Z5 | Blender bay — box, open to ceiling | 1 | TBC | TBC | Sloped ceiling follows roof line, no shelf at this stage — groove sides for a possible later shelf |
 | All | Long panels — general | — | +20mm | — | Standard oversize rule for on-site scribing |
 
+### Zone 1 shelf anti-sag detail (added 9 Sep, from site photos)
+
+Site photos (9 Sep) show the Zone 1 dividers and shelves up and standing, ahead of/parallel to the documented sequence. The shelves are resting in the housed/dado joints in the dividers with no rear support and no lipping yet (still raw ply) — fine for a dry-fit, but don't leave it as the finished fixing. Three changes, all using materials already on the list, no new order:
+
+1. **Rear support batten.** Land each shelf on a batten fixed to the wall/backing framing behind (already itemised as "Backing battens / framing" in Area 1), and screw down through the shelf into it. Turns each shelf from a bare 2-point span between dividers into a 3-edge-supported panel — the single biggest strength gain, and it's hidden behind whatever sits on the shelf. Batten run length matches each wall run (4100mm run A / 4300mm run B, same as Shelf 1) — cut oversize and joint it in shorter transportable lengths (see note below), landing joints over a divider or fixing point, never mid-bay.
+2. **Structural front lipping, not cosmetic edge-banding.** The oak/ash lipping already speced for shelf edges should be cut as a proper nosing — roughly 30–40mm deep × 18–20mm thick, glued and pinned flush top and bottom — not a thin veneer strip. That gives the unsupported front edge a beam-flange effect for no extra material over what was already planned.
+3. **Screw-fix shelf ends into the dividers.** Don't rely on the housed/dado joint as a friction fit alone — one screw through each divider into the shelf end (pilot + countersink, filled if it's a show face) stops it working loose and drooping under repeated loading.
+
+If any single bay's clear span exceeds ~800mm, add one more support point at mid-span rather than relying on lipping alone.
+
+**Batten transport note:** the full run length (4100/4300mm) is too long to carry as one piece on the train. Batten joints don't carry the same risk as a shelf joint — cut each run into shorter sections sized to what's actually portable, and land every join over a fixing point (a divider or a wall stud), not floating over an open bay. Confirm your practical carry length and split accordingly; a straight 2-way split gives ~2050mm (run A) and ~2150mm (run B) per piece.
+
 ## Plan of action (5 phases)
 
 Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCKED must clear Phase 2 before Build Week 1 starts on site.
@@ -358,7 +370,8 @@ Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCK
 - Break down sheet stock into oversize blanks.
 - Cut all READY items from the cut list to final size (return panel, backing battens, Shelf 1 both runs — no continuous run A/B face panel to cut).
 - The corner mitre waits on the Run A corner piece design (Question 22) — don't cut it yet.
-- Machine and lip all shelf stock edges — leave final length uncut where HOLD/BLOCKED.
+- Machine and lip all shelf stock edges — leave final length uncut where HOLD/BLOCKED. Zone 1 shelf lipping to be cut as a 30–40mm structural nosing, not a thin edge-band — see anti-sag detail in the Zone panel breakdown.
+- Cut Zone 1's rear support battens in transportable sections, joints landing over a divider/fixing point, not mid-bay — see anti-sag detail.
 - First seal coat on all cut, READY components (leave scribe edges bare).
 - Build the roof-slope scribe template blank, ready to fit on site.
 
