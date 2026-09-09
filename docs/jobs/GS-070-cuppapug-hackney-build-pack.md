@@ -20,8 +20,10 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 **Financial & logistics update, 9 Sep.** Handover on the space tomorrow — off-site with tools and materials by end of this week. Bar will be fully installed by then but not seal-coated or painted, which is fine; the remaining fabrication moves to the workshop for the next week or so before returning to install and finish. A partial/interim payment is being requested to cover this stretch.
 
 - **Extra work quoted, £400** — already paid.
-- **Extra work quoted, £700** — quoted tonight, client reaction positive but not yet confirmed/paid. Not yet added to the balance below until accepted.
-- **£300 received** — confirmed coming off the final balance (not billed as a separate item). Reduces the £2,100 balance to £1,800 before the £700 extra (if accepted) is added back on.
+- **Extra work quoted, £700** — quoted tonight, client reaction positive but not yet confirmed/paid. Split agreed: **£250 as an additional deposit** (the working-capital payment being requested now, to cover this handover/workshop stretch), **£450 rolled into the final balance** once the extra is confirmed and the job completes.
+- **£300 received** — confirmed coming off the final balance (not billed as a separate item).
+- **Running total, if the £700 extra is confirmed:** job value £4,600 (£3,500 original + £400 + £700). Received to date once the £250 lands: £1,400 deposit + £400 extra + £300 credit + £250 extra deposit = £2,350. Final balance on completion: **£2,250** (the original £2,100, less the £300 credit, plus the £450 remainder of the £700 extra). If the £700 extra isn't confirmed, the £250 has no home in this split — revisit with Aaron rather than assume it folds in elsewhere.
+- **Why now:** everything goes back on the bar tonight so CuppaPug can operate over the next couple of days until the builder returns to fit the remaining Zone 1 pieces — hence requesting the working-capital payment ahead of that gap, not after it.
 - **Coolers/freezers** — confirmed fine, in position, no action needed for the handover. (The cooler clearance resolution above stands unchanged.)
 - **Materials run** — Kazir (driver) to bring more materials to the workshop. Timber needed for the front display area.
 - **Outstanding for this week:** electrical winch section (scope TBC — flag when there's more detail); move the TV.
