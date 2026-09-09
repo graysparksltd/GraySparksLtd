@@ -328,7 +328,7 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Run B — COMFEE' opening | 553 | 845 H × 574 D | Freestanding — no vent allowance added (decision, 30 Aug: size to cabinet width directly) | ready |
 | Run B — Hisense FV105 opening | 560 | 845 H × 575 D | Freestanding — no vent allowance added (decision, 30 Aug: size to cabinet width directly) | ready |
 | Run B — end section | — | — | Deferred by client — not in this build | deferred |
-| Cupboard doors, all bays | TBC | TBC | Soft-close full overlay hinges — confirmed, 20 in stock, 35mm cup hole bored at a uniform offset from the door edge on every door regardless of width, for one batch-boring jig setup | blocked — need carcass widths first |
+| Cupboard doors, all bays | TBC | TBC | Soft-close full overlay hinges — confirmed, 20 in stock, 35mm cup hole bored at a uniform offset from the door edge on every door regardless of width, for one batch-boring jig setup. **5 fitted on site as of 9 Sep** | in progress — 5 of remaining bays done |
 
 ### Zone 5 — blender bay
 
@@ -355,10 +355,11 @@ Status key: **ready** — confirmed dims, cut now · **hold** — one figure or 
 | Z2 | Door blanks (if confirmed) | TBC | TBC | TBC | 35mm cup-hole hinge boring at the same uniform offset as the bar-face doors — on hold pending Zone 2 doors-vs-open confirmation |
 | Z3 | Glass storage shelves | 4 | TBC | 280mm | Open front, no doors — confirmed |
 | Z3 | Glass storage dividers | 3 | TBC | 280mm | Match spacing to glassware in site photo |
-| Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it |
-| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per GraySparks' own working notes; confirm this is deliberate with Aaron before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere) |
-| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both GraySparks' own working notes and the Zone 4/5 site photo (Aaron's); exact dims not yet measured |
+| Z4 | Computer space infill / trim | 1 set | TBC | — | Existing pine unit reused, build around it. **Fitted 9 Sep.** |
+| Z4 | Storage cupboards above computer nook | 2 | TBC | TBC | Sized for a 21″ MacBook/iMac below. Doors open **outward** — per GraySparks' own working notes; confirm this is deliberate with Aaron before ordering hinges (differs from the inward soft-close overlay hinge already specified elsewhere). **Unit fitted 9 Sep.** |
+| Z4/5 | Open shelving, left-hand run (new) | 4 levels | TBC | match Z3 spacing | Not in the original Zone 1–5 breakdown — sits between the computer cupboards and the blender bay. Position confirmed by both GraySparks' own working notes and the Zone 4/5 site photo (Aaron's); exact dims not yet measured. **Fitted 9 Sep** — the run either side of the computer unit and the blender bay, treated as one continuous shelf run |
 | Z5 | Blender bay — box, open to ceiling | 1 | TBC | TBC | Sloped ceiling follows roof line, no shelf at this stage — groove sides for a possible later shelf |
+| End of bar | Cocktail-end unit — corner piece + shelves | ~6–7 shelves | TBC | 400mm (Zone 1 standard) | New unit, built from workshop offcuts (25mm 310×2440, ~830×2440, 400×~2220/2820, 25mm 350×875 — see the anti-sag/offcuts note below). Corner panel already cut at 45° (separate from the Run A corner piece's 156.7° angle). **Reported basically finished, 9 Sep** — being completed on site now |
 | All | Long panels — general | — | +20mm | — | Standard oversize rule for on-site scribing |
 
 ### Zone 1 shelf anti-sag detail (added 9 Sep, from site photos)
@@ -372,6 +373,19 @@ Site photos (9 Sep) show the Zone 1 dividers and shelves up and standing, ahead 
 If any single bay's clear span exceeds ~800mm, add one more support point at mid-span rather than relying on lipping alone.
 
 **Batten transport note:** the full run length (4100/4300mm) is too long to carry as one piece on the train. Batten joints don't carry the same risk as a shelf joint — cut each run into shorter sections sized to what's actually portable, and land every join over a fixing point (a divider or a wall stud), not floating over an open bay. Confirm your practical carry length and split accordingly; a straight 2-way split gives ~2050mm (run A) and ~2150mm (run B) per piece.
+
+### End-of-bar cocktail unit — offcuts note (added 9 Sep)
+
+A separate new unit at the end of the bar (corner piece + ~6–7 shelves) is being built from workshop offcuts rather than fresh sheet stock:
+
+| Thickness | Width × length |
+|---|---|
+| 25mm | 310 × 2440 |
+| 15mm *(unconfirmed — could be 18mm)* | 830 × 2440 |
+| 18mm | 400 × 2220 *(unconfirmed — could be 2820)* |
+| 25mm | 350 × 875 |
+
+The 830-wide and 400-wide boards rip/batch to the Zone 1 standard 400mm shelf width; the two 25mm boards don't match that standard and were more likely structural stock (carcass sides/base) or the corner-panel blank. The corner piece is cut at a plain 45° — a different angle from the Run A corner piece elsewhere in this pack (11.65°/156.7° internal) — confirmed as a genuinely separate unit, not a correction to that one. **Reported basically finished, 9 Sep**, being completed on site now.
 
 ## Plan of action (5 phases)
 
@@ -645,6 +659,10 @@ Nothing marked hold or blocked in the cut list should reach the saw until its qu
 - [ ] Bottom-vs-top shelf height for bigger liquor bottles confirmed, and the wall height at the far end of the run measured
 
 **Site — Build Week 1**
+- [x] Cupboard doors — 5 fitted, 9 Sep (remaining bays still to go)
+- [x] Z4 computer nook unit and infill/trim fitted, 9 Sep
+- [x] Z4/5 open shelving (computer unit to blender bay) fitted, 9 Sep
+- [ ] End-of-bar cocktail unit (corner + ~6–7 shelves, built from offcuts) — reported basically finished, 9 Sep; confirm complete
 - [ ] Return panel fitted and scribed; cupboard doors fitted as carcasses are set; coolers/freezers sitting bare in their recesses, both runs
 - [ ] Corner mitre fitted (once Run A corner piece confirmed)
 - [ ] Roof slope templated and scribed
