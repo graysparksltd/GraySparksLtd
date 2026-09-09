@@ -17,6 +17,16 @@ Back-bar storage, front display base & bench, and TV-wall shelving for Aaron C. 
 | Build windows | 2× Mon–Wed closed days |
 | Working method | Fabricated & finish-coated in workshop; site days for fit only |
 
+**Financial & logistics update, 9 Sep.** Handover on the space tomorrow — off-site with tools and materials by end of this week. Bar will be fully installed by then but not seal-coated or painted, which is fine; the remaining fabrication moves to the workshop for the next week or so before returning to install and finish. A partial/interim payment is being requested to cover this stretch.
+
+- **Extra work quoted, £400** — already paid.
+- **Extra work quoted, £700** — quoted tonight, client reaction positive but not yet confirmed/paid. Not yet added to the balance below until accepted.
+- **£300 received** — confirmed coming off the final balance (not billed as a separate item). Reduces the £2,100 balance to £1,800 before the £700 extra (if accepted) is added back on.
+- **Coolers/freezers** — confirmed fine, in position, no action needed for the handover. (The cooler clearance resolution above stands unchanged.)
+- **Materials run** — Kazir (driver) to bring more materials to the workshop. Timber needed for the front display area.
+- **Outstanding for this week:** electrical winch section (scope TBC — flag when there's more detail); move the TV.
+- **Possible new job — garden room / summer house,** same client conversation, potentially large. Scope not yet defined; not tracked in this pack until it firms up.
+
 **Read this first.** Worktop height, the gauge methodology, TV-wall shelf height, spirit-bottle clearance, hinge type and quantity, the blender-bay approach, the cupboard layout, the full appliance roster, the ventilation-allowance decision, Shelf 2's design (received, not yet transcribed), the bench/base junction method, TV bracket position and the digital-menu question are all settled as of 30 Aug. Bench height, Zone 2 doors-vs-open, and the two IKEA-cupboard-width questions remain open — see the walkthrough plan below. The underside is now confirmed at 885mm (see Key datum), and the cooler clearance problem that raised is also resolved — feet removed, both coolers fitted in place. The cut list flags every component ready/hold/blocked individually — see the Questions list before releasing anything to the saw.
 
 **Key datum, confirmed on site 30 Aug:** worktop 920 finished, underside of bar **885mm** (a 35mm top). This is the fourth figure given for the underside (885 -> 880 -> 895 -> 885) but the first taken as a direct site measurement rather than a sketch or gauge reading, so it now supersedes the “895 final” recorded on 29 Aug. All covered faces and below-worktop carcasses are cut to 885.
@@ -366,6 +376,7 @@ If any single bay's clear span exceeds ~800mm, add one more support point at mid
 Workshop prep runs this week regardless of open decisions; everything HOLD/BLOCKED must clear Phase 2 before Build Week 1 starts on site.
 
 ### 1. Workshop — this week
+- **Handover-driven (9 Sep):** off-site with tools/materials by end of week. Request the partial/interim payment before decamping. Arrange Kazir (driver) to bring materials to the workshop. Buy timber for the front display area.
 - Order sheet goods, timber, brackets, fixings, finish and consumables (excl. bread-bin hinges) for Monday/Tuesday delivery.
 - Break down sheet stock into oversize blanks.
 - Cut all READY items from the cut list to final size (return panel, backing battens, Shelf 1 both runs — no continuous run A/B face panel to cut).
