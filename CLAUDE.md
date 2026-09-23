@@ -22,12 +22,14 @@ A single plain-text offer message, ready to paste. No markdown, no links.
    qualified for fire-rated work). Identify it and answer it directly in one
    line, using real experience — not "I'm reliable and professional," which
    every competitor also writes.
-3. **Be the easiest yes.** No committed prices at the initial offer stage —
-   final pricing is only set after properly assessing the job in person, so
-   never state a fixed total. Instead: acknowledge their budget as workable
-   (when it is), say what the job includes, and when you can start. Position
-   the next step as confirming the exact price once the job has been looked
-   at, without using banned phrases like "free quote".
+3. **Be the easiest yes.** No prices and no budget talk at the offer stage.
+   Pricing is only set after further discussion and/or a visit to measure and
+   evaluate the job, so any other issues are found before a figure is agreed.
+   Never state a total, never call their budget workable, and never say it's
+   too low. Instead: say what the job includes, ask what's needed to scope it,
+   and when you can start. Position the next step as a quick chat and/or a
+   visit to measure and check the job over, then confirming the price, without
+   using banned phrases like "free quote".
 4. **One credibility marker, not a list.** Pick the single most relevant
    credential or past job for THIS task (e.g. fire-safety sign-off for a fire
    door task, the MDF cabinetry job for a bespoke build) — don't recite the
@@ -40,8 +42,8 @@ A single plain-text offer message, ready to paste. No markdown, no links.
 - Under 1500 characters
 - No contact details, links, or off-platform payment references
 - No m-dashes (— or –)
-- No fixed prices committed at offer stage (pricing follows a proper look at
-  the job); no hourly rates either
+- No prices, hourly rates or comments on the customer's budget (workable or
+  not); pricing follows discussion and/or a visit to measure and evaluate
 - Nothing assuming private negotiation
 - No salesy filler phrases: no "free measure", no "no-obligation quote"
 - None of the six stuck-up patterns listed under Tone
