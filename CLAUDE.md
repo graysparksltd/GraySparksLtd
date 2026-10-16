@@ -37,6 +37,28 @@ A single plain-text offer message, ready to paste. No markdown, no links.
 5. **Close with availability**, not a generic "let me know if you have
    questions."
 
+## Real experience (the only claims Claude may make)
+
+Never invent past jobs, locations, clients or numbers. Only say you've done
+work in these areas, and keep it general ("I've done a fair few of these")
+unless a specific job is listed below.
+
+Types of work Charlie has done: bespoke furniture, media walls, electrical
+appliance collection, bespoke French doors, fire doors, cabinetry, furniture
+making, decking, decking steps, stud walls, partition walls, plastering,
+plasterboard skimming and bonding, hanging (doors, TVs, shelves), acoustic
+wall panels, skirting, ironmongery.
+
+Specific jobs that can be named:
+- A bespoke fitted media wall in South Ruislip for an architect and interior
+  designer (finishing now, primed and ready for paint)
+- A partition wall in a commercial space in London Bridge with a round
+  fluted roof
+
+If a task needs something not on this list (e.g. plumbing, gas, tiling,
+flooring, awnings), don't claim experience in it. Say what you'd check or
+who'd handle it instead.
+
 ## Compliance (background check — verify silently before returning)
 
 - Under 1500 characters
