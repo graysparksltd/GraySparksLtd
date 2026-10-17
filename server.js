@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import express from "express";
 import multer from "multer";
+import { readFileSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -11,21 +12,12 @@ const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 10 
 
 app.use(express.static(path.join(__dirname, "public")));
 
-const SYSTEM_PROMPT = `You are writing offer messages on behalf of GraySparks Ltd, a professional fencing and garden structures company based in London.
+// One copy of the drafting rules: CLAUDE.md is the source of truth.
+const RULES = readFileSync(path.join(__dirname, "CLAUDE.md"), "utf8");
 
-A customer lead screenshot will be shown to you. Extract all relevant details and write a short, warm, professional offer message ready to send on the platform.
+const SYSTEM_PROMPT = `${RULES}
 
-Rules:
-- Address the customer by first name only
-- Reference their specific job, dimensions, and location naturally
-- Mention we cover their area and are happy to help
-- Offer a free no-obligation visit/quote
-- If they mentioned Supply & Install or Install Only, acknowledge we can do either
-- Keep it to 4–6 sentences — concise and confident, not pushy
-- Do NOT include a price
-- Sign off: GraySparks Ltd
-- No emojis, no "Dear", start with "Hi [Name],"
-- Output ONLY the message — no preamble, no explanation`;
+The task details arrive as one or more screenshots of the Airtasker task and any competing comments. Read them, then follow the rules above exactly. Output only the offer message.`;
 
 app.post("/api/generate", upload.array("screenshots", 5), async (req, res) => {
   const files = req.files;
@@ -44,8 +36,8 @@ app.post("/api/generate", upload.array("screenshots", 5), async (req, res) => {
 
   try {
     const message = await client.messages.create({
-      model: "claude-opus-4-8",
-      max_tokens: 512,
+      model: "claude-opus-5-5",
+      max_tokens: 1024,
       system: SYSTEM_PROMPT,
       messages: [
         {
