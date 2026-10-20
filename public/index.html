@@ -202,6 +202,33 @@
       white-space: pre-wrap;
     }
 
+    .compliance-status {
+      display: none;
+      margin-bottom: 0.85rem;
+      padding: 0.7rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+
+    .compliance-status.passed {
+      display: block;
+      background: #eef8f0;
+      color: #24643a;
+    }
+
+    .compliance-status.issues {
+      display: block;
+      background: #fff6e5;
+      color: #805600;
+    }
+
+    .review-note {
+      margin-top: 0.85rem;
+      font-size: 0.78rem;
+      color: #888;
+    }
+
     .error-msg {
       background: #fff0f0;
       border: 1.5px solid #f5c6cb;
@@ -257,16 +284,18 @@
 
     <div class="output-card" id="outputCard">
       <div class="output-top">
-        <span class="output-label">Your Message</span>
+        <span class="output-label">Draft to review</span>
         <button class="btn-copy" id="copyBtn" onclick="copyMessage()">
           <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
             <rect x="9" y="9" width="13" height="13" rx="2"/>
             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
           </svg>
-          Copy &amp; Send
+          Copy Message
         </button>
       </div>
+      <div class="compliance-status" id="complianceStatus" role="status" aria-live="polite"></div>
       <div id="output-text"></div>
+      <p class="review-note">Check the details and wording before using this draft.</p>
     </div>
 
   </div>
@@ -335,14 +364,27 @@
         const res = await fetch('/api/generate', { method: 'POST', body: form });
         const data = await res.json();
         if (!res.ok) throw new Error(data.error || 'Something went wrong');
+        if (
+          !data.compliance ||
+          typeof data.compliance.passed !== 'boolean' ||
+          !Array.isArray(data.compliance.issues)
+        ) {
+          throw new Error('The server response was missing compliance results. Please try again.');
+        }
 
         document.getElementById('output-text').textContent = data.message;
+        const complianceStatus = document.getElementById('complianceStatus');
+        const { passed, issues } = data.compliance;
+        complianceStatus.className = `compliance-status ${passed ? 'passed' : 'issues'}`;
+        complianceStatus.textContent = passed
+          ? 'No compliance issues detected. Check the details and wording before using this draft.'
+          : `Review before using: ${issues.length ? issues.join('; ') : 'the draft did not pass the compliance check'}.`;
         outputCard.classList.add('visible');
         outputCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
         const copyBtn = document.getElementById('copyBtn');
         copyBtn.className = 'btn-copy';
-        copyBtn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy &amp; Send`;
+        copyBtn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy Message`;
       } catch (err) {
         errorMsg.textContent = err.message;
         errorMsg.style.display = 'block';
@@ -360,9 +402,13 @@
         btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Copied!`;
         btn.className = 'btn-copy copied';
         setTimeout(() => {
-          btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy &amp; Send`;
+          btn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy Message`;
           btn.className = 'btn-copy';
         }, 2000);
+      }).catch(() => {
+        const errorMsg = document.getElementById('errorMsg');
+        errorMsg.textContent = 'Could not copy the draft. Select and copy the text manually.';
+        errorMsg.style.display = 'block';
       });
     }
   </script>

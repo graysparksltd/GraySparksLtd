@@ -4,6 +4,7 @@ import multer from "multer";
 import { readFileSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { checkDraft } from "./compliance.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -53,8 +54,19 @@ app.post("/api/generate", upload.array("screenshots", 5), async (req, res) => {
       ],
     });
 
-    const text = message.content[0].type === "text" ? message.content[0].text.trim() : "";
-    res.json({ message: text });
+    const text = message.content
+      .filter((block) => block.type === "text")
+      .map((block) => block.text)
+      .join("\n")
+      .trim();
+    const issues = checkDraft(text);
+    res.json({
+      message: text,
+      compliance: {
+        passed: issues.length === 0,
+        issues,
+      },
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Failed to generate message. Check your ANTHROPIC_API_KEY." });
