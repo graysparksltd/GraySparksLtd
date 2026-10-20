@@ -14,7 +14,7 @@ Requirements: Node.js and an Anthropic API key.
    to `3000`.
 3. Start the app with `npm start`, then open `http://localhost:3000`.
 
-Upload up to five task screenshots. Each file may be up to 10 MiB. The
+Upload up to five task screenshots (PNG, JPEG, GIF or WebP). Each file may be up to 10 MB. The
 generator returns a draft and the compliance checker reports any detected
 issues in the interface.
 

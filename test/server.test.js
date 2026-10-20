@@ -75,3 +75,48 @@ test("an API failure is a 500 with a safe message", async () => {
   assert.equal(status, 500);
   assert.doesNotMatch(JSON.stringify(body), /secret detail/);
 });
+
+// Upload limits: each problem gets a JSON error in plain English and no API call.
+async function postFiles(client, files) {
+  const server = createApp(client).listen(0);
+  try {
+    const form = new FormData();
+    for (const f of files) form.append("screenshots", new Blob([f.data], { type: f.type }), f.name);
+    const res = await fetch(`http://127.0.0.1:${server.address().port}/api/generate`, { method: "POST", body: form });
+    return { status: res.status, body: await res.json() };
+  } finally {
+    server.close();
+  }
+}
+const png = (name = "a.png", data = Buffer.from("png")) => ({ name, data, type: "image/png" });
+
+test("a file that is not a PNG, JPEG, GIF or WebP image is refused", async () => {
+  const client = fakeClient([GOOD]);
+  const { status, body } = await postFiles(client, [{ name: "a.pdf", data: Buffer.from("x"), type: "application/pdf" }]);
+  assert.equal(status, 400);
+  assert.match(body.error, /PNG, JPEG, GIF or WebP/);
+  assert.equal(client.calls.length, 0);
+});
+
+test("a file over 10 MB is a 413 with a clear message", async () => {
+  const client = fakeClient([GOOD]);
+  const { status, body } = await postFiles(client, [png("big.png", Buffer.alloc(10 * 1024 * 1024 + 1))]);
+  assert.equal(status, 413);
+  assert.match(body.error, /over 10 MB/);
+  assert.equal(client.calls.length, 0);
+});
+
+test("more than five screenshots is refused", async () => {
+  const client = fakeClient([GOOD]);
+  const { status, body } = await postFiles(client, Array.from({ length: 6 }, (_, i) => png(`${i}.png`)));
+  assert.equal(status, 400);
+  assert.match(body.error, /at most 5/);
+  assert.equal(client.calls.length, 0);
+});
+
+test("five screenshots are accepted", async () => {
+  const client = fakeClient([GOOD]);
+  const { status } = await postFiles(client, Array.from({ length: 5 }, (_, i) => png(`${i}.png`)));
+  assert.equal(status, 200);
+  assert.equal(client.calls[0].messages[0].content.filter((c) => c.type === "image").length, 5);
+});

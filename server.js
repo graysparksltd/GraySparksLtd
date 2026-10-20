@@ -1,13 +1,33 @@
 import Anthropic from "@anthropic-ai/sdk";
 import express from "express";
-import multer from "multer";
+import multer, { MulterError } from "multer";
 import { readFileSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { checkDraft } from "./compliance.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 10 * 1024 * 1024 } });
+const MAX_FILE_MB = 10;
+const MAX_FILES = 5;
+const IMAGE_TYPES = ["image/png", "image/jpeg", "image/gif", "image/webp"];
+
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: MAX_FILE_MB * 1024 * 1024, files: MAX_FILES },
+  fileFilter: (req, file, cb) => {
+    if (IMAGE_TYPES.includes(file.mimetype)) return cb(null, true);
+    cb(new MulterError("LIMIT_UNEXPECTED_FILE", "type"));
+  },
+});
+
+// Plain-English messages for upload problems, so the page never shows an HTML error.
+function uploadMessage(err) {
+  if (err.code === "LIMIT_FILE_SIZE") return `A screenshot is over ${MAX_FILE_MB} MB. Use a smaller image.`;
+  if (err.code === "LIMIT_FILE_COUNT") return `Upload at most ${MAX_FILES} screenshots.`;
+  if (err.code === "LIMIT_UNEXPECTED_FILE" && err.field === "type") return "Only PNG, JPEG, GIF or WebP screenshots can be used.";
+  if (err.code === "LIMIT_UNEXPECTED_FILE") return `Upload at most ${MAX_FILES} screenshots, using the screenshots field.`;
+  return "The upload could not be read. Please try again.";
+}
 
 // One copy of the drafting rules: CLAUDE.md is the source of truth.
 const RULES = readFileSync(path.join(__dirname, "CLAUDE.md"), "utf8");
@@ -28,7 +48,7 @@ export function createApp(client = new Anthropic()) {
   const app = express();
   app.use(express.static(path.join(__dirname, "public")));
 
-  app.post("/api/generate", upload.array("screenshots", 5), async (req, res) => {
+  app.post("/api/generate", upload.array("screenshots", MAX_FILES), async (req, res) => {
     const files = req.files;
     if (!files || files.length === 0) {
       return res.status(400).json({ error: "Please upload at least one screenshot." });
@@ -73,6 +93,11 @@ export function createApp(client = new Anthropic()) {
       console.error(err);
       res.status(500).json({ error: "Failed to generate message. Check your ANTHROPIC_API_KEY." });
     }
+  });
+
+  app.use((err, req, res, next) => {
+    if (err instanceof MulterError) return res.status(err.code === "LIMIT_FILE_SIZE" ? 413 : 400).json({ error: uploadMessage(err) });
+    next(err);
   });
 
   return app;
