@@ -14,10 +14,10 @@ Customer: Bridget, RM3 8HE, Harold Hill. Labour only. Customer supplies the door
 
 Further work below is quoted separately and is not in the £700.
 
-## Extra work requested (to be quoted)
-- Door closers on all the fire doors.
-- Door closers on the bathroom doors (light doors, not fire doors).
-- Needs: number of bathroom doors, who supplies the closers, closer model, then a written variation quote before work starts.
+## Extra work (quote GS-076-V1, £300, not yet accepted)
+- 5 door closers on the fire doors: 5 x £50 = £250. Closers supplied by the customer (collecting 22 October 2026), to suit doors up to 60kg, Certifire approved.
+- Fit customer-supplied 3-lever bathroom locks to 2 existing bathroom doors (light doors, not fire doors, handles already on): 2 x £25 = £50.
+- Due with the £350 balance on completion, £650 in total. PDF: `GS-076-V1_Bridget_Closers_and_Locks_Quote.pdf`.
 
 ## Open items
 - 838 door to be ordered by the customer for the 838 opening (the 826 is too narrow).
