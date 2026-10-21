@@ -1,0 +1,35 @@
+# Job GS-076: Fire door trim and fit, Harold Hill
+
+Customer: Bridget, RM3 8HE, Harold Hill. Labour only. Customer supplies the doors, hinges, intumescent strips, latches and handles.
+
+## Scope and price
+- 5 Deanta Seville FD30 white primed doors: 2 x 762 x 1981 (downstairs), 2 x 726 x 2040 (upstairs), 1 x 838 x 1981 (new door, customer to order).
+- Quote £700 (5 x £140). Payment on completion, no deposit. Quote PDF issued as GS-073: `docs/jobs/GS-073/GS-073_Bridget_Fire_Door_Quote.pdf`. Job number is GS-076.
+
+## Payments
+| Invoice | Amount | Status |
+|---|---|---|
+| 076-01 (50% part payment) | £350 | Paid |
+| 076-02 (balance on completion) | £350 | Due, expected 21 October 2026 |
+
+Further work below is quoted separately and is not in the £700.
+
+## Extra work requested (to be quoted)
+- Door closers on all the fire doors.
+- Door closers on the bathroom doors (light doors, not fire doors).
+- Needs: number of bathroom doors, who supplies the closers, closer model, then a written variation quote before work starts.
+
+## Open items
+- 838 door to be ordered by the customer for the 838 opening (the 826 is too narrow).
+- Thresholds/sills: the openings downstairs have none (about 16mm gap under the 1981 doors, limit is 8mm) and the upstairs openings are about 8mm too tall. Needs sills raised about 10mm before hanging.
+- Check frame stops are at least 12mm deep, frame section at least 70 x 30mm, and head/side gaps 2 to 4mm.
+- Check Deanta on 01353 698 602 about the third hinge position and keyhole through the leaf.
+- Returns (customer to arrange, keep sealed): 2 x 726, 1 x 762, 1 x 826.
+
+## Fitting rules (Deanta Type 5 install sheet and Certifire data sheet CF5740)
+- Trim: Feature Range, max 30mm total, 15mm any edge, keep 3mm lipping. Do not trim the Certifire label edge.
+- Gaps: 2 to 4mm head and sides, 8mm max under the door above the floor covering.
+- Hinges: minimum 3, centreline at most 200mm from head and foot (planned 180mm), 102 x 76 x 3mm Grade 13 Certifire hinges, at least 4 steel screws per leaf.
+- Closers: Certifire-approved, CE to EN 1154 Grade 1, size 3 minimum, no hold-open, no floor springs, jamb closers only inside a single flat.
+- Intumescent: one set only, on head and both long edges (door or frame by seal type), not the bottom edge.
+- Lock cases: no bigger than 110 x 81 x 15mm, bedded on 1mm Interdens or Therm-a-strip.
