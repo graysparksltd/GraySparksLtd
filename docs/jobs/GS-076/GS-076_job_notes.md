@@ -16,7 +16,7 @@ Customer: Bridget, RM3 8HE, Harold Hill. Labour only. Customer supplies the door
 
 Visits: Saturday morning, then Tuesday 27 October 2026 when the 838 door arrives.
 
-The closers and bathroom locks below are included in the £1,000 total.
+Invoice 076-03 covers one build day at £250 for door frame and jamb adjustments, architraves and the remaining fire door safety compliance work. Not for the bathroom locks (scope changed 23 October 2026). The closers line in quote GS-076-V1 below needs confirming against this.
 
 ## Extra work (quote GS-076-V1, £300, not yet accepted)
 - 5 door closers on the fire doors: 5 x £50 = £250. Closers supplied by the customer (collecting 22 October 2026), to suit doors up to 60kg, Certifire approved.
