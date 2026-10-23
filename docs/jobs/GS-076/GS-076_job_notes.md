@@ -2,6 +2,11 @@
 
 Customer: Bridget, RM3 8HE, Harold Hill. Labour only. Customer supplies the doors, hinges, intumescent strips, latches and handles.
 
+## Status (23 October 2026)
+- Site: Belgrade Avenue, RM3 8HE, Harold Hill.
+- Door closer units are fitted on the doors. The arms still go on the frames/architraves, Saturday morning (short job). Architraves had to be done on one door.
+- Back on Tuesday 27 October 2026 for the 838 door and the final £150.
+
 ## Scope and price
 - 5 Deanta Seville FD30 white primed doors: 2 x 762 x 1981 (downstairs), 2 x 726 x 2040 (upstairs), 1 x 838 x 1981 (new door, customer to order).
 - Quote £700 (5 x £140). Payment on completion, no deposit. Quote PDF issued as GS-073: `docs/jobs/GS-073/GS-073_Bridget_Fire_Door_Quote.pdf`. Job number is GS-076.
