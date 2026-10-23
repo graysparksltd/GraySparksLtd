@@ -6,13 +6,17 @@ Customer: Bridget, RM3 8HE, Harold Hill. Labour only. Customer supplies the door
 - 5 Deanta Seville FD30 white primed doors: 2 x 762 x 1981 (downstairs), 2 x 726 x 2040 (upstairs), 1 x 838 x 1981 (new door, customer to order).
 - Quote £700 (5 x £140). Payment on completion, no deposit. Quote PDF issued as GS-073: `docs/jobs/GS-073/GS-073_Bridget_Fire_Door_Quote.pdf`. Job number is GS-076.
 
-## Payments
+## Payments (job total £1,000: £700 doors + £300 closers and bathroom locks)
 | Invoice | Amount | Status |
 |---|---|---|
 | 076-01 (50% part payment) | £350 | Paid |
-| 076-02 (balance on completion) | £350 | Due, expected 21 October 2026 |
+| Second payment | £250 | Paid (no invoice number on file) |
+| 076-03 (stage payment, 23 October 2026) | £250 | Due on receipt |
+| 076-04 (final balance, on completion) | £150 | After the 838 door is fitted |
 
-Further work below is quoted separately and is not in the £700.
+Visits: Saturday morning, then Tuesday 27 October 2026 when the 838 door arrives.
+
+The closers and bathroom locks below are included in the £1,000 total.
 
 ## Extra work (quote GS-076-V1, £300, not yet accepted)
 - 5 door closers on the fire doors: 5 x £50 = £250. Closers supplied by the customer (collecting 22 October 2026), to suit doors up to 60kg, Certifire approved.
